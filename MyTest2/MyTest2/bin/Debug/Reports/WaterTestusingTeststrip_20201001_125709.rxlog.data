@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="22.42s"
+		durationms="22419"
+		type="root"
+		rid="4c170b1e189095c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="01-10-2020 12:57:11"
+		timestampiso="2020-10-01T07:27:11"
+		endtime="01-10-2020 12:57:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="WaterTestusingTeststrip">
+		<detail>
+			WaterTestusingTeststrip
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.605"
+			timeRelativeToTestModuleStartTime="00:04.605"
+			timeWallClock="12:57:15"
+			time="00:04.605"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>PHvalue, Chlorine, pHagain, TotalChlorine, TotalAlkalinity, Calcium, CyanuricAcid, DeviceNamevar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.630"
+			timeRelativeToTestModuleStartTime="00:04.630"
+			timeWallClock="12:57:15"
+			time="00:04.630"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Water_Quality.View_Test_history' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='VIEW TEST HISTORY']/container[@accessibilitylabel='VIEW TEST HISTORY']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='VIEW TEST HISTORY']/container[@accessibilitylabel='VIEW TEST HISTORY']"
+				fullname="MyTest2Repository.Water_Quality.View_Test_history"
+				id="b375b07ba6b4453baae35cb81da27322"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="183"
+				itemindex="29"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

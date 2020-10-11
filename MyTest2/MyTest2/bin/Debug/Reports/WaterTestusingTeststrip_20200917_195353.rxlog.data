@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="32.63s"
+		durationms="32625"
+		type="root"
+		rid="83b3e34a7efdb7f"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-09-2020 19:53:55"
+		timestampiso="2020-09-17T14:23:55"
+		endtime="17-09-2020 19:54:27"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="WaterTestusingTeststrip">
+		<detail>
+			WaterTestusingTeststrip
+		</detail>
+		<errormessage>
+			Cannot perform a local keyboard action on a mobile element.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.067"
+			timeRelativeToTestModuleStartTime="00:05.067"
+			timeWallClock="19:54:00"
+			time="00:05.067"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>PHvalue
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.100"
+			timeRelativeToTestModuleStartTime="00:05.100"
+			timeWallClock="19:54:00"
+			time="00:05.100"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.WaterQuality' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+				id="6fc992b5a39e41e1a5fa498ef745629c"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.212"
+			timeRelativeToTestModuleStartTime="00:18.212"
+			timeWallClock="19:54:13"
+			time="00:18.212"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.TESTSTRIP' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='TEST STRIP']"
+				itempath=".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='TEST STRIP']"
+				fullname="MyTest2Repository.ComPentairPentairhome.TESTSTRIP"
+				id="8c239de6b12a461daf5b9dff939b82fe"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.716"
+			timeRelativeToTestModuleStartTime="00:28.716"
+			timeWallClock="19:54:23"
+			time="00:28.716"
+			level="Info"
+			category="Set value"
+			errimg="images_WaterTes_71df429\WaterTes_71df429_2ae3229f_trace.jpg"
+			errthumb="images_WaterTes_71df429\WaterTes_71df429_2ae3229f_trace_thumb.jpg">
+			<message>
+				Setting attribute Text to '$PHvalue' on item 'Water_Quality.RCTUITextField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+				fullname="MyTest2Repository.Water_Quality.RCTUITextField"
+				id="5af5448ffc384691a36dac2ec0e533bc"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.281"
+			timeRelativeToTestModuleStartTime="00:31.281"
+			timeWallClock="19:54:26"
+			time="00:31.281"
+			level="Info"
+			category="Keyboard"
+			errimg="images_WaterTes_71df429\WaterTes_71df429_979f1ec7_trace.jpg"
+			errthumb="images_WaterTes_71df429\WaterTes_71df429_979f1ec7_trace_thumb.jpg">
+			<message>
+				Key 'Ctrl+A' Press with focus on 'Water_Quality.RCTUITextField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+				fullname="MyTest2Repository.Water_Quality.RCTUITextField"
+				id="5af5448ffc384691a36dac2ec0e533bc"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.500"
+			timeRelativeToTestModuleStartTime="00:32.500"
+			timeWallClock="19:54:27"
+			time="00:32.500"
+			level="Error"
+			category="Module"
+			errimg="images_WaterTes_71df429\WaterTes_71df429_4d7e4997_trace.jpg"
+			errthumb="images_WaterTes_71df429\WaterTes_71df429_4d7e4997_trace_thumb.jpg">
+			<message>
+				Cannot perform a local keyboard action on a mobile element.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Keyboard.PrepareFocus(Element focusTarget)
+   at MyTest2.WaterTestusingTeststrip.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs:line 108
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="108"
+				loglvl="Error"
+				itemindex="3">
+			</metainfo>
+		</item>
+	</activity>
+</report>

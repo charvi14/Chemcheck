@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.3m"
+		durationms="80895"
+		type="root"
+		rid="17227c6a45deefe"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="25-09-2020 18:42:11"
+		timestampiso="2020-09-25T13:12:11"
+		endtime="25-09-2020 18:43:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Pool_Add">
+		<detail>
+			Pool_Add
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest2Repository.Pool_Add.SelectPool'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.756"
+			timeRelativeToTestModuleStartTime="00:04.756"
+			timeWallClock="18:42:15"
+			time="00:04.756"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>DeviceNamevar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.787"
+			timeRelativeToTestModuleStartTime="00:04.787"
+			timeWallClock="18:42:16"
+			time="00:04.787"
+			level="Info"
+			category="Touch"
+			errimg="images_Pool_Add_f69110be\Pool_Add_f69110be_28bd2ea9_trace.jpg"
+			errthumb="images_Pool_Add_f69110be\Pool_Add_f69110be_28bd2ea9_trace_thumb.jpg">
+			<message>
+				Touch item 'Product_Overview.ProfileBottom' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container/container[2]/container[@caption='']/container[4]/container[@caption='']/container[2]/container[@caption='']/container[@caption='']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container/container[2]/container[@caption='']/container[4]/container[@caption='']/container[2]/container[@caption='']/container[@caption='']"
+				fullname="MyTest2Repository.Product_Overview.ProfileBottom"
+				id="5b90ce69840d4098bb548d39aa0207eb"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.934"
+			timeRelativeToTestModuleStartTime="00:19.934"
+			timeWallClock="18:42:31"
+			time="00:19.934"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.940"
+			timeRelativeToTestModuleStartTime="00:22.940"
+			timeWallClock="18:42:34"
+			time="00:22.940"
+			level="Info"
+			category="Touch"
+			errimg="images_Pool_Add_f69110be\Pool_Add_f69110be_28bd2ea9_trace.jpg"
+			errthumb="images_Pool_Add_f69110be\Pool_Add_f69110be_28bd2ea9_trace_thumb.jpg">
+			<message>
+				Touch item 'Pool_Add.PoolInfoProfile' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="//mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Pool Info']/container[@accessibilitylabel='Pool Info']"
+				itempath="//mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Pool Info']/container[@accessibilitylabel='Pool Info']"
+				fullname="MyTest2Repository.Pool_Add.PoolInfoProfile"
+				id="16013e19a7a24ff388bb216de5a72ef9"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="111"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.966"
+			timeRelativeToTestModuleStartTime="00:49.966"
+			timeWallClock="18:43:01"
+			time="00:49.966"
+			level="Info"
+			category="Touch gestures"
+			errimg="images_Pool_Add_f69110be\Pool_Add_f69110be_619e6519_trace.jpg"
+			errthumb="images_Pool_Add_f69110be\Pool_Add_f69110be_619e6519_trace_thumb.jpg">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '250' with swipe duration'800ms' and step count '0' on item 'Pool_Add.SelectPool'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Select Pool']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Select Pool']"
+				fullname="MyTest2Repository.Pool_Add.SelectPool"
+				id="43f32865458c48e6893bce7a8f8b5b80"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="115"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.303"
+			timeRelativeToTestModuleStartTime="01:20.303"
+			timeWallClock="18:43:31"
+			time="01:20.303"
+			level="Error"
+			category="Module"
+			errimg="images_Pool_Add_f69110be\Pool_Add_f69110be_96e0fa4a_trace.jpg"
+			errthumb="images_Pool_Add_f69110be\Pool_Add_f69110be_96e0fa4a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest2Repository.Pool_Add.SelectPool'.<br/>No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Select Pool']' at step 'descendant-or-self::container[@accessibilitylabel='Select Pool']' after 92 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.get_SelectPool() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\MyTest2Repository.cs:line 2640&#13;&#10;   at MyTest2.Pool_Add.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs:line 116&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="116"
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Select Pool']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Select Pool']"
+				fullname="MyTest2Repository.Pool_Add.SelectPool"
+				id="43f32865458c48e6893bce7a8f8b5b80"
+				timeout="30000"
+				failedStep="descendant-or-self::container[@accessibilitylabel='Select Pool']"
+				bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+				loglvl="Error"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="28.6s"
+		durationms="28596"
+		type="root"
+		rid="5db1166f4a4ca98"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="22-09-2020 15:55:08"
+		timestampiso="2020-09-22T10:25:08"
+		endtime="22-09-2020 15:55:37"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="WaterTestBalancedValues">
+		<detail>
+			WaterTestBalancedValues
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.797"
+			timeRelativeToTestModuleStartTime="00:05.797"
+			timeWallClock="15:55:14"
+			time="00:05.797"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>pHBalanced, ChlorineBalanced, totalchbalanced, TotalAlkabalanced, calciumbalanced, Cyanuricbalaned
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.820"
+			timeRelativeToTestModuleStartTime="00:05.820"
+			timeWallClock="15:55:14"
+			time="00:05.820"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '100' with swipe duration'800ms' and step count '0' on item 'ComPentairPentairhome.Sanitizer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				itempath=".//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Sanitizer"
+				id="38eaa5f44cac48fe8bb75781ecd2348f"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestBalancedValues.cs"
+				codeline="160"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.972"
+			timeRelativeToTestModuleStartTime="00:18.972"
+			timeWallClock="15:55:27"
+			time="00:18.972"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.WaterQuality' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+				id="6fc992b5a39e41e1a5fa498ef745629c"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestBalancedValues.cs"
+				codeline="164"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.596"
+			timeRelativeToTestModuleStartTime="00:28.596"
+			timeWallClock="15:55:37"
+			time="00:28.596"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

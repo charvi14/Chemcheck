@@ -1,0 +1,20 @@
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\MyTest2.rxtmg
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\MyTest2.rxtst
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\MyTest2.exe.config
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\MyTest2.xml
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\MyTest2.exe
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\MyTest2.pdb
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\obj\x86\Debug\MyTest2.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\obj\x86\Debug\MyTest2.exe
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\obj\x86\Debug\MyTest2.pdb
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\MCQDatabase.csv
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\TestStrip_data.csv
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\Device_Name.csv
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\TestStrip_balanceddata.csv
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\TestStrip_balanceddata_Indoor.csv
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\TestStrip_data_Unbalanced_Indoor.csv
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\bin\Debug\Ranorex Automation Helpers.xml

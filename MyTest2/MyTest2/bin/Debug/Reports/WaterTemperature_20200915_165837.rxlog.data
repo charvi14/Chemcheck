@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.3m"
+		durationms="75280"
+		type="root"
+		rid="1d09a2336e5d7fae"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="15-09-2020 16:58:39"
+		timestampiso="2020-09-15T11:28:39"
+		endtime="15-09-2020 16:59:54"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="WaterTemperature">
+		<detail>
+			WaterTemperature
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.644"
+			timeRelativeToTestModuleStartTime="00:07.644"
+			timeWallClock="16:58:47"
+			time="00:07.644"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.WaterTemperature' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Temperature']/container[@accessibilitylabel='Water Temperature']"
+				itempath=".//container[@accessibilitylabel='Water Temperature']/container[@accessibilitylabel='Water Temperature']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterTemperature"
+				id="1fed839008e14725b065ab9c035cdee3"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.467"
+			timeRelativeToTestModuleStartTime="00:21.467"
+			timeWallClock="16:59:00"
+			time="00:21.467"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.896"
+			timeRelativeToTestModuleStartTime="00:24.896"
+			timeWallClock="16:59:04"
+			time="00:24.896"
+			level="Info"
+			category="User"
+			errimg="images_WaterTem_ca3f05de\WaterTem_77fbff12_rxlog.jpg"
+			errthumb="images_WaterTem_ca3f05de\WaterTem_77fbff12_rxlog_thumb.jpg">
+			<message>
+				Hourly Report<br/>
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.897"
+			timeRelativeToTestModuleStartTime="00:24.897"
+			timeWallClock="16:59:04"
+			time="00:24.897"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Daily' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']"
+				itempath=".//container[@accessibilitylabel='Daily']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Daily"
+				id="53e44fad94fa4b5ca98c6461388a6421"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="92"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.031"
+			timeRelativeToTestModuleStartTime="00:35.031"
+			timeWallClock="16:59:14"
+			time="00:35.031"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.471"
+			timeRelativeToTestModuleStartTime="00:38.471"
+			timeWallClock="16:59:17"
+			time="00:38.471"
+			level="Info"
+			category="User"
+			errimg="images_WaterTem_ca3f05de\WaterTem_77fcff12_rxlog.jpg"
+			errthumb="images_WaterTem_ca3f05de\WaterTem_77fcff12_rxlog_thumb.jpg">
+			<message>
+				Daily report<br/>
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.471"
+			timeRelativeToTestModuleStartTime="00:38.471"
+			timeWallClock="16:59:17"
+			time="00:38.471"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Weekly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']"
+				itempath=".//container[@accessibilitylabel='Weekly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Weekly"
+				id="c0377e66dbe84f8aaecb161c5dfa7791"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="101"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.450"
+			timeRelativeToTestModuleStartTime="00:48.450"
+			timeWallClock="16:59:27"
+			time="00:48.450"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.875"
+			timeRelativeToTestModuleStartTime="00:51.875"
+			timeWallClock="16:59:31"
+			time="00:51.875"
+			level="Info"
+			category="User"
+			errimg="images_WaterTem_ca3f05de\WaterTem_77f9ff12_rxlog.jpg"
+			errthumb="images_WaterTem_ca3f05de\WaterTem_77f9ff12_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="109"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.875"
+			timeRelativeToTestModuleStartTime="00:51.875"
+			timeWallClock="16:59:31"
+			time="00:51.875"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Monthly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']"
+				itempath=".//container[@accessibilitylabel='Monthly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Monthly"
+				id="0079c8cb41cd494ea5aafa5ecde64f0d"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="111"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.873"
+			timeRelativeToTestModuleStartTime="01:01.873"
+			timeWallClock="16:59:41"
+			time="01:01.873"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="115"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.294"
+			timeRelativeToTestModuleStartTime="01:05.294"
+			timeWallClock="16:59:44"
+			time="01:05.294"
+			level="Info"
+			category="User"
+			errimg="images_WaterTem_ca3f05de\WaterTem_77faff12_rxlog.jpg"
+			errthumb="images_WaterTem_ca3f05de\WaterTem_77faff12_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.295"
+			timeRelativeToTestModuleStartTime="01:05.295"
+			timeWallClock="16:59:44"
+			time="01:05.295"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesIconBac' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/iconBack@2x.png']"
+				itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/iconBack@2x.png']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesIconBac"
+				id="686963d6303f46f2b43d8f4034b20bed"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTemperature.cs"
+				codeline="120"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

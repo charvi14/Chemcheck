@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.6m"
+		durationms="95400"
+		type="root"
+		rid="2898d9d4b28ab81"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="15-09-2020 13:04:10"
+		timestampiso="2020-09-15T07:34:10"
+		endtime="15-09-2020 13:05:46"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="pHCharts">
+		<detail>
+			pHCharts
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.458"
+			timeRelativeToTestModuleStartTime="00:18.458"
+			timeWallClock="13:04:29"
+			time="00:18.458"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.ContainerPH' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH']/container[@accessibilitylabel='pH']"
+				itempath=".//container[@accessibilitylabel='pH']/container[@accessibilitylabel='pH']"
+				fullname="MyTest2Repository.ComPentairPentairhome.ContainerPH"
+				id="e0e211d177da46f59839b81f395159b1"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.502"
+			timeRelativeToTestModuleStartTime="01:03.502"
+			timeWallClock="13:05:14"
+			time="01:03.502"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.346"
+			timeRelativeToTestModuleStartTime="01:07.346"
+			timeWallClock="13:05:18"
+			time="01:07.346"
+			level="Info"
+			category="User"
+			errimg="images_pHCharts_8bc52369\pHCharts_204afe1b_rxlog.jpg"
+			errthumb="images_pHCharts_8bc52369\pHCharts_204afe1b_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.352"
+			timeRelativeToTestModuleStartTime="01:07.352"
+			timeWallClock="13:05:18"
+			time="01:07.352"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Daily' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']"
+				itempath=".//container[@accessibilitylabel='Daily']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Daily"
+				id="53e44fad94fa4b5ca98c6461388a6421"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="92"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.896"
+			timeRelativeToTestModuleStartTime="01:17.896"
+			timeWallClock="13:05:28"
+			time="01:17.896"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.906"
+			timeRelativeToTestModuleStartTime="01:21.906"
+			timeWallClock="13:05:32"
+			time="01:21.906"
+			level="Info"
+			category="User"
+			errimg="images_pHCharts_8bc52369\pHCharts_2049fe1b_rxlog.jpg"
+			errthumb="images_pHCharts_8bc52369\pHCharts_2049fe1b_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.908"
+			timeRelativeToTestModuleStartTime="01:21.908"
+			timeWallClock="13:05:32"
+			time="01:21.908"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Weekly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']"
+				itempath=".//container[@accessibilitylabel='Weekly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Weekly"
+				id="c0377e66dbe84f8aaecb161c5dfa7791"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="102"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:32.666"
+			timeRelativeToTestModuleStartTime="01:32.666"
+			timeWallClock="13:05:43"
+			time="01:32.666"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:35.400"
+			timeRelativeToTestModuleStartTime="01:35.400"
+			timeWallClock="13:05:46"
+			time="01:35.400"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

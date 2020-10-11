@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.2m"
+		durationms="193753"
+		type="root"
+		rid="62b3c8dc7b7de5a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="27-09-2020 14:02:03"
+		timestampiso="2020-09-27T08:32:03"
+		endtime="27-09-2020 14:05:16"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2.9m"
+			durationms="171418"
+			type="test-suite"
+			rid="bd64aa413118f08"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest2"
+			headertext="MyTest2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="2.9m"
+				durationms="171369"
+				type="test-case"
+				rid="2f03d635821576e5"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Verify_Water_balance_Indoor_Pool"
+				testcontainerid="63c07d3b-ed55-4d4e-9681-bc3bc87643b5"
+				headertext="Verify_Water_balance_Indoor_Pool"
+				displayName="Verify_Water_balance_Indoor_Pool"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="2.9m"
+					durationms="171327"
+					type="test-module"
+					rid="6ac4f5855863d08"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Water_Balance_Indoor_Pool"
+					displayName="Water_Balance_Indoor_Pool"
+					moduleid="6948b244-e3a7-4880-b8ae-a7f83880a00c"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.099"
+						timeRelativeToTestModuleStartTime="00:00.021"
+						timeWallClock="14:02:25"
+						time="00:00.099"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.Pool_device_Address' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+							itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+							fullname="MyTest2Repository.ComPentairPentairhome.Pool_device_Address"
+							id="58332ca2b7cc4e38b64df91f4b87c00b"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.262"
+						timeRelativeToTestModuleStartTime="00:18.184"
+						timeWallClock="14:02:43"
+						time="00:18.262"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+							itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+							fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2"
+							id="e9593837f0fe4fcc8f851cb9b8de3c9c"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.241"
+						timeRelativeToTestModuleStartTime="00:30.163"
+						timeWallClock="14:02:55"
+						time="00:30.241"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'Product_Overview.ProductOverviewclick' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']"
+							itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']"
+							fullname="MyTest2Repository.Product_Overview.ProductOverviewclick"
+							id="219b024088ae4de8854efb3661ba9ad1"
+							timeout="30000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:43.281"
+						timeRelativeToTestModuleStartTime="00:43.203"
+						timeWallClock="14:03:08"
+						time="00:43.281"
+						level="Info"
+						category="Touch gestures">
+						<message>
+							Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '100' with swipe duration'500ms' and step count '0' on item 'Product_Overview.Nickname'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']"
+							itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']"
+							fullname="MyTest2Repository.Product_Overview.Nickname"
+							id="fd6df0ae9f1c4de3bf2066697df0c791"
+							timeout="30000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.226"
+						timeRelativeToTestModuleStartTime="01:04.149"
+						timeWallClock="14:03:29"
+						time="01:04.226"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'Pool_Add.Address' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']"
+							itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']"
+							fullname="MyTest2Repository.Pool_Add.Address"
+							id="ebf080cc0d364059928698f861ad14f6"
+							timeout="30000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:22.644"
+						timeRelativeToTestModuleStartTime="01:22.567"
+						timeWallClock="14:03:48"
+						time="01:22.644"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="5"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="102"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:24.745"
+						timeRelativeToTestModuleStartTime="01:24.667"
+						timeWallClock="14:03:50"
+						time="01:24.745"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'Pool_Add.IndoorPool_Automation' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='IndoorPool_Automation']"
+							itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='IndoorPool_Automation']"
+							fullname="MyTest2Repository.Pool_Add.IndoorPool_Automation"
+							id="7de168c3a55347aea402a397d2243ab4"
+							timeout="30000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="105"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:47.343"
+						timeRelativeToTestModuleStartTime="01:47.266"
+						timeWallClock="14:04:12"
+						time="01:47.343"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="7"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="109"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:49.419"
+						timeRelativeToTestModuleStartTime="01:49.341"
+						timeWallClock="14:04:14"
+						time="01:49.419"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Visible='True') on item 'Pool_Add.DeviceAddressUpdated'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Device address updated']"
+							itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Device address updated']"
+							fullname="MyTest2Repository.Pool_Add.DeviceAddressUpdated"
+							id="39106f459f4a4006abe5640714cae201"
+							timeout="30000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="112"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:55.868"
+						timeRelativeToTestModuleStartTime="01:55.790"
+						timeWallClock="14:04:21"
+						time="01:55.868"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Visible' of element for item 'MyTest2Repository.Pool_Add.DeviceAddressUpdated' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Device address updated']"
+							itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Device address updated']"
+							fullname="MyTest2Repository.Pool_Add.DeviceAddressUpdated"
+							id="39106f459f4a4006abe5640714cae201"
+							timeout="30000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="113"
+							loglvl="Success"
+							itemindex="8">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:57.753"
+						timeRelativeToTestModuleStartTime="01:57.676"
+						timeWallClock="14:04:23"
+						time="01:57.753"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'Pool_Add.TextOK' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='OK']"
+							itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='OK']"
+							fullname="MyTest2Repository.Pool_Add.TextOK"
+							id="747bb09b40f743e7a8e8ced205dd6ca3"
+							timeout="30000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="116"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:10.628"
+						timeRelativeToTestModuleStartTime="02:10.550"
+						timeWallClock="14:04:36"
+						time="02:10.628"
+						level="Info"
+						category="Touch">
+						<message>
+							(Optional Action)<br/>Touch item 'Pool_Add.HomeIcon_without_red' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/npHome1898142000000@2x.png']"
+							itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/npHome1898142000000@2x.png']"
+							fullname="MyTest2Repository.Pool_Add.HomeIcon_without_red"
+							id="d08d9b4c7ade4423858026b50b1a9dea"
+							timeout="30000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="121"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:23.058"
+						timeRelativeToTestModuleStartTime="02:22.980"
+						timeWallClock="14:04:48"
+						time="02:23.058"
+						level="Info"
+						category="Touch">
+						<message>
+							(Optional Action)<br/>Touch item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesHomeAle' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/homeAlert@2x.png']"
+							itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/homeAlert@2x.png']"
+							fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesHomeAle"
+							id="4bc390f5573848028a83d522d0c387cd"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="127"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:34.586"
+						timeRelativeToTestModuleStartTime="02:34.508"
+						timeWallClock="14:05:00"
+						time="02:34.586"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 2s.
+						</message>
+						<metainfo
+							itemindex="12"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="132"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:36.656"
+						timeRelativeToTestModuleStartTime="02:36.578"
+						timeWallClock="14:05:02"
+						time="02:36.656"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.Pool_device_Address' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+							itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+							fullname="MyTest2Repository.ComPentairPentairhome.Pool_device_Address"
+							id="58332ca2b7cc4e38b64df91f4b87c00b"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Water_Balance_Indoor_Pool.cs"
+							codeline="135"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

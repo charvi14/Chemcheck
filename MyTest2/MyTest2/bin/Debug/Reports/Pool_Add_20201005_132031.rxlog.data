@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="24.41s"
+		durationms="24409"
+		type="root"
+		rid="a4972bcf96d70a0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="05-10-2020 13:20:33"
+		timestampiso="2020-10-05T07:50:33"
+		endtime="05-10-2020 13:20:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Pool_Add">
+		<detail>
+			Pool_Add
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.668"
+			timeRelativeToTestModuleStartTime="00:05.668"
+			timeWallClock="13:20:39"
+			time="00:05.668"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>DeviceNamevar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.711"
+			timeRelativeToTestModuleStartTime="00:05.711"
+			timeWallClock="13:20:39"
+			time="00:05.711"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Pool_Add.PoolSave' at CenterRight
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']"
+				fullname="MyTest2Repository.Pool_Add.PoolSave"
+				id="229e7fe002f14512ace7066360774737"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="92"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

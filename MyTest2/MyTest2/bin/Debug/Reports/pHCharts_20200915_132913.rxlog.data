@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.3m"
+		durationms="77075"
+		type="root"
+		rid="1dcd634b382d3df"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="15-09-2020 13:29:15"
+		timestampiso="2020-09-15T07:59:15"
+		endtime="15-09-2020 13:30:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="pHCharts">
+		<detail>
+			pHCharts
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.930"
+			timeRelativeToTestModuleStartTime="00:05.930"
+			timeWallClock="13:29:21"
+			time="00:05.930"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.ContainerPH' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH']/container[@accessibilitylabel='pH']"
+				itempath=".//container[@accessibilitylabel='pH']/container[@accessibilitylabel='pH']"
+				fullname="MyTest2Repository.ComPentairPentairhome.ContainerPH"
+				id="e0e211d177da46f59839b81f395159b1"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.441"
+			timeRelativeToTestModuleStartTime="00:19.441"
+			timeWallClock="13:29:34"
+			time="00:19.441"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.274"
+			timeRelativeToTestModuleStartTime="00:23.274"
+			timeWallClock="13:29:38"
+			time="00:23.274"
+			level="Info"
+			category="User"
+			errimg="images_pHCharts_31209806\pHCharts_c7267374_rxlog.jpg"
+			errthumb="images_pHCharts_31209806\pHCharts_c7267374_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.278"
+			timeRelativeToTestModuleStartTime="00:23.278"
+			timeWallClock="13:29:38"
+			time="00:23.278"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Daily' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']"
+				itempath=".//container[@accessibilitylabel='Daily']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Daily"
+				id="53e44fad94fa4b5ca98c6461388a6421"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="92"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.813"
+			timeRelativeToTestModuleStartTime="00:33.813"
+			timeWallClock="13:29:48"
+			time="00:33.813"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.685"
+			timeRelativeToTestModuleStartTime="00:37.685"
+			timeWallClock="13:29:52"
+			time="00:37.685"
+			level="Info"
+			category="User"
+			errimg="images_pHCharts_31209806\pHCharts_c7277374_rxlog.jpg"
+			errthumb="images_pHCharts_31209806\pHCharts_c7277374_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="100"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.687"
+			timeRelativeToTestModuleStartTime="00:37.687"
+			timeWallClock="13:29:52"
+			time="00:37.687"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Weekly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']"
+				itempath=".//container[@accessibilitylabel='Weekly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Weekly"
+				id="c0377e66dbe84f8aaecb161c5dfa7791"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="102"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.281"
+			timeRelativeToTestModuleStartTime="00:48.281"
+			timeWallClock="13:30:03"
+			time="00:48.281"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.149"
+			timeRelativeToTestModuleStartTime="00:52.149"
+			timeWallClock="13:30:07"
+			time="00:52.149"
+			level="Info"
+			category="User"
+			errimg="images_pHCharts_31209806\pHCharts_c7287374_rxlog.jpg"
+			errthumb="images_pHCharts_31209806\pHCharts_c7287374_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="110"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.149"
+			timeRelativeToTestModuleStartTime="00:52.149"
+			timeWallClock="13:30:07"
+			time="00:52.149"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Monthly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']"
+				itempath=".//container[@accessibilitylabel='Monthly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Monthly"
+				id="0079c8cb41cd494ea5aafa5ecde64f0d"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="112"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:02.782"
+			timeRelativeToTestModuleStartTime="01:02.782"
+			timeWallClock="13:30:17"
+			time="01:02.782"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.498"
+			timeRelativeToTestModuleStartTime="01:06.498"
+			timeWallClock="13:30:21"
+			time="01:06.498"
+			level="Info"
+			category="User"
+			errimg="images_pHCharts_31209806\pHCharts_c7297374_rxlog.jpg"
+			errthumb="images_pHCharts_31209806\pHCharts_c7297374_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.499"
+			timeRelativeToTestModuleStartTime="01:06.499"
+			timeWallClock="13:30:21"
+			time="01:06.499"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesIconBac' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/iconBack@2x.png']"
+				itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/iconBack@2x.png']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesIconBac"
+				id="686963d6303f46f2b43d8f4034b20bed"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\pHCharts.cs"
+				codeline="122"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{DB6B9831-059D-4128-B15D-FDD9F72F2708}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyTest2</RootNamespace>
+    <AssemblyName>MyTest2</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>f594195b-9cd6-4ff7-9887-625aaad9b8c6</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>e9c8b9ea-ff7e-4ecb-a896-746d08b273ea</id>
+    </Compile>
+    <Compile Include="DeviceDasboard.cs">
+      <BoundTo>80b43f07-49fc-4d26-82dc-867af4a0f097</BoundTo>
+      <DependentUpon>DeviceDasboard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>da653464-4081-4c27-98fb-183f48ab70dc</id>
+    </Compile>
+    <Compile Include="DeviceDasboard.UserCode.cs">
+      <BoundTo>80b43f07-49fc-4d26-82dc-867af4a0f097</BoundTo>
+      <DependentUpon>DeviceDasboard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0ef96a46-4d6b-4f68-84d7-f92c09458c70</id>
+    </Compile>
+    <Compile Include="Home_Dashboard.cs">
+      <BoundTo>b89af9e6-e6f4-4d46-bff6-f3d58cdb7feb</BoundTo>
+      <DependentUpon>Home_Dashboard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>01a5e36b-07f8-460b-ab9e-0cbe0945a327</id>
+    </Compile>
+    <Compile Include="Home_Dashboard.UserCode.cs">
+      <BoundTo>b89af9e6-e6f4-4d46-bff6-f3d58cdb7feb</BoundTo>
+      <DependentUpon>Home_Dashboard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06e7290f-cd8b-4790-9cd2-d154541a9427</id>
+    </Compile>
+    <Compile Include="Indoor_Balanced_Verification.cs">
+      <BoundTo>a91cc638-6bcb-46f1-a401-6bc819e658f9</BoundTo>
+      <DependentUpon>Indoor_Balanced_Verification.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fb324b56-d2bf-4fec-8620-6030977e9237</id>
+    </Compile>
+    <Compile Include="Indoor_Balanced_Verification.UserCode.cs">
+      <BoundTo>a91cc638-6bcb-46f1-a401-6bc819e658f9</BoundTo>
+      <DependentUpon>Indoor_Balanced_Verification.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f89a19ea-69ef-4f76-9914-551ca348dc92</id>
+    </Compile>
+    <Compile Include="Indoor_Unbalanced_Water_Quality.cs">
+      <BoundTo>b2e214c2-2ee7-4411-a76f-fa4d70a1b380</BoundTo>
+      <DependentUpon>Indoor_Unbalanced_Water_Quality.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>19933144-ddc9-4cea-9336-ec2b13eca928</id>
+    </Compile>
+    <Compile Include="Indoor_Unbalanced_Water_Quality.UserCode.cs">
+      <BoundTo>b2e214c2-2ee7-4411-a76f-fa4d70a1b380</BoundTo>
+      <DependentUpon>Indoor_Unbalanced_Water_Quality.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c4bbc1c-e46c-4d66-bf7f-aa68fe114d0e</id>
+    </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>37c6bc68-ab77-48be-ab8d-6cf7fafda05b</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8081c6ac-b897-4ea1-8894-e69c7a1331bc</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>37c6bc68-ab77-48be-ab8d-6cf7fafda05b</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e8ec44f-4521-4303-afe2-1e3d19d504f5</id>
+    </Compile>
+    <Compile Include="MyTest2Repository.cs">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <DependentUpon>MyTest2Repository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>e69447a3-a2d5-41d9-9135-03066ff6214b</id>
+    </Compile>
+    <Compile Include="pHCharts.cs">
+      <BoundTo>0f12f662-1d36-49ce-9d99-590c1af8a48a</BoundTo>
+      <DependentUpon>pHCharts.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>55618563-98d7-437e-8561-44f1cf716dd5</id>
+    </Compile>
+    <Compile Include="pHCharts.UserCode.cs">
+      <BoundTo>0f12f662-1d36-49ce-9d99-590c1af8a48a</BoundTo>
+      <DependentUpon>pHCharts.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>221c2395-eb04-48ec-981a-719af9408fa3</id>
+    </Compile>
+    <Compile Include="PH_Calibration.cs">
+      <BoundTo>e1acd4b5-0e0e-462b-b1eb-52176a6aaaf9</BoundTo>
+      <DependentUpon>PH_Calibration.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>386372ac-1691-4ffb-b340-b58890421f75</id>
+    </Compile>
+    <Compile Include="PH_Calibration.UserCode.cs">
+      <BoundTo>e1acd4b5-0e0e-462b-b1eb-52176a6aaaf9</BoundTo>
+      <DependentUpon>PH_Calibration.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1485857c-d0ae-423e-874e-55bacab89396</id>
+    </Compile>
+    <Compile Include="Pool_Add.cs">
+      <BoundTo>fbd71083-e045-41d2-b65e-e0982aa3e229</BoundTo>
+      <DependentUpon>Pool_Add.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a4811e4f-5c37-4b06-86e9-2b567b393688</id>
+    </Compile>
+    <Compile Include="Pool_Add.UserCode.cs">
+      <BoundTo>fbd71083-e045-41d2-b65e-e0982aa3e229</BoundTo>
+      <DependentUpon>Pool_Add.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e4ff5501-7fdf-4c08-9a92-18263a3ea6ec</id>
+    </Compile>
+    <Compile Include="Pool_Device_remove.cs">
+      <BoundTo>08f1d99f-743d-4301-a6ac-e237c2828f22</BoundTo>
+      <DependentUpon>Pool_Device_remove.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d838d530-141d-4f76-a2fd-1b80544fd901</id>
+    </Compile>
+    <Compile Include="Pool_Device_remove.UserCode.cs">
+      <BoundTo>08f1d99f-743d-4301-a6ac-e237c2828f22</BoundTo>
+      <DependentUpon>Pool_Device_remove.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>916cc26b-7f61-46cc-8e99-c9cfda14d2fa</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>42e71754-19da-4a55-87bb-a9798515d721</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>670f8bdd-d4db-4058-bac9-ae681c38b8e5</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>98614ec5-5667-4d6a-a031-645a890fc21c</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>670f8bdd-d4db-4058-bac9-ae681c38b8e5</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dfa28cb1-9861-4d01-aa7b-60f64f828eb1</id>
+    </Compile>
+    <Compile Include="Sanitizer.cs">
+      <BoundTo>980647f5-6053-4c04-9287-63c3e9c76977</BoundTo>
+      <DependentUpon>Sanitizer.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0bbebe8d-07a4-441a-a8c7-90afe41d42c6</id>
+    </Compile>
+    <Compile Include="Sanitizer.UserCode.cs">
+      <BoundTo>980647f5-6053-4c04-9287-63c3e9c76977</BoundTo>
+      <DependentUpon>Sanitizer.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9c810371-16fc-4fad-bc6f-a52721eb5b3d</id>
+    </Compile>
+    <Compile Include="Sanitize_Calibration.cs">
+      <BoundTo>e6067510-74f3-4588-b92a-2fd3ac068862</BoundTo>
+      <DependentUpon>Sanitize_Calibration.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>48e502a9-25fa-4706-aebd-ffb35a3d6429</id>
+    </Compile>
+    <Compile Include="Sanitize_Calibration.UserCode.cs">
+      <BoundTo>e6067510-74f3-4588-b92a-2fd3ac068862</BoundTo>
+      <DependentUpon>Sanitize_Calibration.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>76ae8e82-b649-4767-9e0a-88e939a0fae8</id>
+    </Compile>
+    <Compile Include="Settings_Product_Overview.cs">
+      <BoundTo>9627e2b2-9b3c-4a51-9ec6-a30519268d87</BoundTo>
+      <DependentUpon>Settings_Product_Overview.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7cba3b33-f8ba-48eb-9c31-a56ae803fed9</id>
+    </Compile>
+    <Compile Include="Settings_Product_Overview.UserCode.cs">
+      <BoundTo>9627e2b2-9b3c-4a51-9ec6-a30519268d87</BoundTo>
+      <DependentUpon>Settings_Product_Overview.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a4a0e83-0580-4f53-a35c-674984ada3c5</id>
+    </Compile>
+    <Compile Include="WaterTemperature.cs">
+      <BoundTo>9bff5713-a395-41a0-a40b-d9a8db27050f</BoundTo>
+      <DependentUpon>WaterTemperature.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>82f957b1-7406-4e6d-ab5d-9c72899ede34</id>
+    </Compile>
+    <Compile Include="WaterTemperature.UserCode.cs">
+      <BoundTo>9bff5713-a395-41a0-a40b-d9a8db27050f</BoundTo>
+      <DependentUpon>WaterTemperature.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>16ba4529-e51d-4e32-bb65-24ad883739e8</id>
+    </Compile>
+    <Compile Include="WaterTestBalancedValues.cs">
+      <BoundTo>d9141904-24b4-44cc-a0e2-3668d5b45875</BoundTo>
+      <DependentUpon>WaterTestBalancedValues.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f250d175-2d0a-43d2-b59c-53345a3d1001</id>
+    </Compile>
+    <Compile Include="WaterTestBalancedValues.UserCode.cs">
+      <BoundTo>d9141904-24b4-44cc-a0e2-3668d5b45875</BoundTo>
+      <DependentUpon>WaterTestBalancedValues.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f9b5425c-2776-436d-b9da-be51e06c8844</id>
+    </Compile>
+    <Compile Include="WaterTestusingTeststrip.cs">
+      <BoundTo>66d8cd0f-d885-4c54-8299-20b00d634dfe</BoundTo>
+      <DependentUpon>WaterTestusingTeststrip.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9e8cc3e7-8839-4434-ab3a-3d54fead6275</id>
+    </Compile>
+    <Compile Include="WaterTestusingTeststrip.UserCode.cs">
+      <BoundTo>66d8cd0f-d885-4c54-8299-20b00d634dfe</BoundTo>
+      <DependentUpon>WaterTestusingTeststrip.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54cee4c6-586a-49fc-a96c-abf4b77ef853</id>
+    </Compile>
+    <Compile Include="Water_Balance_Indoor_Pool.cs">
+      <BoundTo>c2231131-76a8-437e-bcea-2874cd343fb6</BoundTo>
+      <DependentUpon>Water_Balance_Indoor_Pool.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f0936b61-5f65-4106-8222-23be842b870d</id>
+    </Compile>
+    <Compile Include="Water_Balance_Indoor_Pool.UserCode.cs">
+      <BoundTo>c2231131-76a8-437e-bcea-2874cd343fb6</BoundTo>
+      <DependentUpon>Water_Balance_Indoor_Pool.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fb66b0b8-19a0-414d-bf3d-b6fe7990d69d</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>d250a5ea-9845-41ee-b1ce-aa94757e2e00</id>
+    </None>
+    <None Include="DeviceDasboard.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>80b43f07-49fc-4d26-82dc-867af4a0f097</id>
+      <recordtableid>cdc747f2-9ef0-4b51-bdbc-ae20c4892032</recordtableid>
+    </None>
+    <Content Include="Device_Name.csv">
+      <Link>Device_Name.csv</Link>
+      <BoundTo>1583d445-11bb-4ff8-9bb3-ff18dcd3c755</BoundTo>
+      <DependentUpon>MyTest2.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d88519c5-6ed6-44b9-8f38-5e03ac13d91b</id>
+    </Content>
+    <None Include="Home_Dashboard.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>b89af9e6-e6f4-4d46-bff6-f3d58cdb7feb</id>
+      <recordtableid>9347a5af-d853-452d-bb8c-f8f32d8cfa8e</recordtableid>
+    </None>
+    <None Include="Indoor_Balanced_Verification.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>a91cc638-6bcb-46f1-a401-6bc819e658f9</id>
+      <recordtableid>7b641a0d-d952-4b2c-923c-11eeac2baeb2</recordtableid>
+    </None>
+    <None Include="Indoor_Unbalanced_Water_Quality.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>b2e214c2-2ee7-4411-a76f-fa4d70a1b380</id>
+      <recordtableid>738d74e1-d4f8-4a75-93b5-c4c10b46cb94</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>37c6bc68-ab77-48be-ab8d-6cf7fafda05b</id>
+      <recordtableid>887dd196-2e24-4467-a072-5a65652cc814</recordtableid>
+    </None>
+    <Content Include="MCQDatabase.csv">
+      <Link>MCQDatabase.csv</Link>
+      <BoundTo>1583d445-11bb-4ff8-9bb3-ff18dcd3c755</BoundTo>
+      <DependentUpon>MyTest2.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>30f0baae-4fdb-4065-a910-bffab93ff040</id>
+    </Content>
+    <None Include="MyTest2Repository.rximg">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <DependentUpon>MyTest2Repository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>c131def8-68a8-4a18-a9ab-55a23b547737</id>
+    </None>
+    <None Include="MyTest2Repository.rxrep">
+      <id>f594195b-9cd6-4ff7-9887-625aaad9b8c6</id>
+      <repoid>88179048-706e-470d-b363-bff527f56d7c</repoid>
+      <reporootid>39bedccd-5146-4f0b-b13a-d098f83d3d6b</reporootid>
+    </None>
+    <None Include="pHCharts.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>0f12f662-1d36-49ce-9d99-590c1af8a48a</id>
+      <recordtableid>e61d6d3c-d700-49db-b0df-7bd77a95c5de</recordtableid>
+    </None>
+    <None Include="PH_Calibration.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>e1acd4b5-0e0e-462b-b1eb-52176a6aaaf9</id>
+      <recordtableid>bac6b522-d577-4e09-ba19-bba03300615c</recordtableid>
+    </None>
+    <None Include="Pool_Add.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>fbd71083-e045-41d2-b65e-e0982aa3e229</id>
+      <recordtableid>b372db19-f499-4dc1-8c6a-37c825e284b3</recordtableid>
+    </None>
+    <None Include="Pool_Device_remove.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>08f1d99f-743d-4301-a6ac-e237c2828f22</id>
+      <recordtableid>290e59dd-061e-49ec-ae8f-b332b805b101</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>670f8bdd-d4db-4058-bac9-ae681c38b8e5</id>
+      <recordtableid>b100963f-eefc-4d56-87e0-699d5727f837</recordtableid>
+    </None>
+    <None Include="Sanitizer.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>980647f5-6053-4c04-9287-63c3e9c76977</id>
+      <recordtableid>b008a313-56e0-4ce7-9229-bd17e62dd995</recordtableid>
+    </None>
+    <Content Include="TestStrip_data.csv">
+      <Link>TestStrip_data.csv</Link>
+      <BoundTo>1583d445-11bb-4ff8-9bb3-ff18dcd3c755</BoundTo>
+      <DependentUpon>MyTest2.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>dc0db1b1-c420-48b4-a28d-bcbd4a50e583</id>
+    </Content>
+    <Content Include="TestStrip_balanceddata.csv">
+      <Link>TestStrip_balanceddata.csv</Link>
+      <BoundTo>1583d445-11bb-4ff8-9bb3-ff18dcd3c755</BoundTo>
+      <DependentUpon>MyTest2.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0641afb1-09c9-4bdd-ab00-24db5cef1ab5</id>
+    </Content>
+    <None Include="Sanitize_Calibration.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>e6067510-74f3-4588-b92a-2fd3ac068862</id>
+      <recordtableid>be797428-435c-4a15-abbd-d70d95aada9f</recordtableid>
+    </None>
+    <None Include="Settings_Product_Overview.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>9627e2b2-9b3c-4a51-9ec6-a30519268d87</id>
+      <recordtableid>421f156a-7926-4fda-a3b1-14d2fc6d6c44</recordtableid>
+    </None>
+    <Content Include="TestStrip_balanceddata_Indoor.csv">
+      <Link>TestStrip_balanceddata_Indoor.csv</Link>
+      <BoundTo>1583d445-11bb-4ff8-9bb3-ff18dcd3c755</BoundTo>
+      <DependentUpon>MyTest2.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>586d0bfc-4f60-43a4-b2f4-5803ea62ae0b</id>
+    </Content>
+    <Content Include="TestStrip_data_Unbalanced_Indoor.csv">
+      <Link>TestStrip_data_Unbalanced_Indoor.csv</Link>
+      <BoundTo>1583d445-11bb-4ff8-9bb3-ff18dcd3c755</BoundTo>
+      <DependentUpon>MyTest2.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>41f1c806-5352-43ed-a633-047ce1e1fa06</id>
+    </Content>
+    <None Include="WaterTemperature.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>9bff5713-a395-41a0-a40b-d9a8db27050f</id>
+      <recordtableid>8ad81dd3-f6c9-454a-8291-9c40df4acdc2</recordtableid>
+    </None>
+    <None Include="WaterTestBalancedValues.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>d9141904-24b4-44cc-a0e2-3668d5b45875</id>
+      <recordtableid>f8b7404c-e032-4254-894d-b0cb9bb53d48</recordtableid>
+    </None>
+    <None Include="WaterTestusingTeststrip.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>66d8cd0f-d885-4c54-8299-20b00d634dfe</id>
+      <recordtableid>cc01358f-131d-4461-9ef3-541db70e5bf6</recordtableid>
+    </None>
+    <None Include="Water_Balance_Indoor_Pool.rxrec">
+      <BoundTo>f594195b-9cd6-4ff7-9887-625aaad9b8c6</BoundTo>
+      <id>c2231131-76a8-437e-bcea-2874cd343fb6</id>
+      <recordtableid>6948b244-e3a7-4880-b8ae-a7f83880a00c</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyTest2.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>9d50711e-927b-409c-8d6d-e67682ee9220</id>
+    </Content>
+    <Content Include="MyTest2.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>1583d445-11bb-4ff8-9bb3-ff18dcd3c755</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{869A8660-956F-4590-AE5A-36589AB4E30C}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

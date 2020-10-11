@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.8m"
+		durationms="106020"
+		type="root"
+		rid="283b8f94481bec10"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="02-10-2020 20:26:49"
+		timestampiso="2020-10-02T14:56:49"
+		endtime="02-10-2020 20:28:36"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="1.7m"
+			durationms="101747"
+			type="test-suite"
+			rid="701c9983f09b60a"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest2"
+			headertext="MyTest2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="1.7m"
+				durationms="101703"
+				type="iteration-container"
+				rid="cca24ff2d3bf466"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="Verify_Sanitizer_Calibration"
+				headertext="Verify_Sanitizer_Calibration"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="d08d0be6-f08c-4a26-9955-c5771dd115d5"
+				datasource="NewConnector2"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="1.7m"
+					durationms="101694"
+					type="test-case"
+					rid="cf068b5dcca150"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Verify_Sanitizer_Calibration"
+					testcontainerid="d08d0be6-f08c-4a26-9955-c5771dd115d5"
+					headertext="Verify_Sanitizer_Calibration"
+					displayName="Verify_Sanitizer_Calibration"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="DeviceName">
+							ChemCheck
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="1.7m"
+						durationms="101651"
+						type="test-module"
+						rid="1300e0f18f52ec40"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Sanitize_Calibration"
+						displayName="Sanitize_Calibration"
+						moduleid="be797428-435c-4a15-abbd-d70d95aada9f"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="DeviceNamevar"
+								value="ChemCheck">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.104"
+							timeRelativeToTestModuleStartTime="00:00.013"
+							timeWallClock="20:26:54"
+							time="00:00.104"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$DeviceNamevar = 'ChemCheck'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.202"
+							timeRelativeToTestModuleStartTime="00:00.112"
+							timeWallClock="20:26:54"
+							time="00:00.202"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.Pool_device_Address' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+								itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel=$DeviceNamevar]"
+								fullname="MyTest2Repository.ComPentairPentairhome.Pool_device_Address"
+								id="58332ca2b7cc4e38b64df91f4b87c00b"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitize_Calibration.cs"
+								codeline="92"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.757"
+							timeRelativeToTestModuleStartTime="00:18.667"
+							timeWallClock="20:27:13"
+							time="00:18.757"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="1"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitize_Calibration.cs"
+								codeline="96"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.873"
+							timeRelativeToTestModuleStartTime="00:21.782"
+							timeWallClock="20:27:16"
+							time="00:21.873"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2"
+								id="e9593837f0fe4fcc8f851cb9b8de3c9c"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitize_Calibration.cs"
+								codeline="99"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:34.035"
+							timeRelativeToTestModuleStartTime="00:33.944"
+							timeWallClock="20:27:28"
+							time="00:34.035"
+							level="Info"
+							category="Touch gestures">
+							<message>
+								Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '400' with swipe duration'800ms' and step count '0' on item 'Product_Overview.ContactAProfessional'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Contact a Professional']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Contact a Professional']"
+								fullname="MyTest2Repository.Product_Overview.ContactAProfessional"
+								id="01127375c67540c79b11b3b4660b9b15"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitize_Calibration.cs"
+								codeline="103"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:48.471"
+							timeRelativeToTestModuleStartTime="00:48.381"
+							timeWallClock="20:27:42"
+							time="00:48.471"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Calibration.Sanitizer_Calibration' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer Calibration']/container[@accessibilitylabel='Sanitizer Calibration']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer Calibration']/container[@accessibilitylabel='Sanitizer Calibration']"
+								fullname="MyTest2Repository.Calibration.Sanitizer_Calibration"
+								id="d4dff181d8cd481faea607fe95cb9734"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitize_Calibration.cs"
+								codeline="107"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:02.292"
+							timeRelativeToTestModuleStartTime="01:02.202"
+							timeWallClock="20:27:56"
+							time="01:02.292"
+							level="Info"
+							category="Set value"
+							errimg="images_MyTest2__c6ca21f3\MyTest2__c6ca21f3_cf9c7690_trace.jpg"
+							errthumb="images_MyTest2__c6ca21f3\MyTest2__c6ca21f3_cf9c7690_trace_thumb.jpg">
+							<message>
+								Setting attribute Text to '2' on item 'Calibration.Calibration_Chlorine'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='sanitizerCalibrationValue']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='sanitizerCalibrationValue']"
+								fullname="MyTest2Repository.Calibration.Calibration_Chlorine"
+								id="615f4e968dfe4941b43984cad3b654f6"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitize_Calibration.cs"
+								codeline="111"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:05.796"
+							timeRelativeToTestModuleStartTime="01:05.706"
+							timeWallClock="20:28:00"
+							time="01:05.796"
+							level="Info"
+							category="Touch"
+							errimg="images_MyTest2__c6ca21f3\MyTest2__c6ca21f3_e768e42a_trace.jpg"
+							errthumb="images_MyTest2__c6ca21f3\MyTest2__c6ca21f3_e768e42a_trace_thumb.jpg">
+							<message>
+								Touch item 'Calibration.Free_chlorine_Label' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Enter Free Chlorine Level.']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Enter Free Chlorine Level.']"
+								fullname="MyTest2Repository.Calibration.Free_chlorine_Label"
+								id="ccb21d788a2c496fb805d2c682580c27"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitize_Calibration.cs"
+								codeline="115"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:27.229"
+							timeRelativeToTestModuleStartTime="01:27.139"
+							timeWallClock="20:28:21"
+							time="01:27.229"
+							level="Info"
+							category="Touch"
+							errimg="images_MyTest2__c6ca21f3\MyTest2__c6ca21f3_773b349e_trace.jpg"
+							errthumb="images_MyTest2__c6ca21f3\MyTest2__c6ca21f3_773b349e_trace_thumb.jpg">
+							<message>
+								Touch item 'Calibration.Calibrate_button' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton' and @accessibilitylabel='CALIBRATE']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton' and @accessibilitylabel='CALIBRATE']"
+								fullname="MyTest2Repository.Calibration.Calibrate_button"
+								id="52fabc893b6f4120be6b0f37c83c2ea8"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitize_Calibration.cs"
+								codeline="119"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:40.947"
+							timeRelativeToTestModuleStartTime="01:40.857"
+							timeWallClock="20:28:35"
+							time="01:40.947"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

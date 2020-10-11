@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="45.99s"
+		durationms="45988"
+		type="root"
+		rid="109c720e48e031c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="26-09-2020 20:23:14"
+		timestampiso="2020-09-26T14:53:14"
+		endtime="26-09-2020 20:24:00"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Pool_Add">
+		<detail>
+			Pool_Add
+		</detail>
+		<errormessage>
+			Cannot synthesize touch event because elment with ID &lt;282181920&gt; was not found
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.063"
+			timeRelativeToTestModuleStartTime="00:05.063"
+			timeWallClock="20:23:20"
+			time="00:05.063"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>DeviceNamevar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.094"
+			timeRelativeToTestModuleStartTime="00:05.094"
+			timeWallClock="20:23:20"
+			time="00:05.094"
+			level="Info"
+			category="Touch"
+			errimg="images_Pool_Add_d44c94d1\Pool_Add_d44c94d1_43a5bf72_trace.jpg"
+			errthumb="images_Pool_Add_d44c94d1\Pool_Add_d44c94d1_43a5bf72_trace_thumb.jpg">
+			<message>
+				Touch item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesHomeAle' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/homeAlert@2x.png']"
+				itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/homeAlert@2x.png']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesHomeAle"
+				id="4bc390f5573848028a83d522d0c387cd"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="92"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.200"
+			timeRelativeToTestModuleStartTime="00:19.200"
+			timeWallClock="20:23:34"
+			time="00:19.200"
+			level="Info"
+			category="Touch"
+			errimg="images_Pool_Add_d44c94d1\Pool_Add_d44c94d1_43a5bf72_trace.jpg"
+			errthumb="images_Pool_Add_d44c94d1\Pool_Add_d44c94d1_43a5bf72_trace_thumb.jpg">
+			<message>
+				Touch item 'ComPentairPentairhome.Pool_device_Address' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+				itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Pool_device_Address"
+				id="58332ca2b7cc4e38b64df91f4b87c00b"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="100"
+				itemindex="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.861"
+			timeRelativeToTestModuleStartTime="00:45.861"
+			timeWallClock="20:24:00"
+			time="00:45.861"
+			level="Error"
+			category="Module"
+			errimg="images_Pool_Add_d44c94d1\Pool_Add_d44c94d1_60ebffa2_trace.jpg"
+			errthumb="images_Pool_Add_d44c94d1\Pool_Add_d44c94d1_60ebffa2_trace_thumb.jpg">
+			<message>
+				Cannot synthesize touch event because elment with ID &lt;282181920&gt; was not found
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Plugin.Mobile.XmlRpc.XmlRpcProtocolChannel.Call(MethodCall mc, TimeSpan responseTimeout)
+   at Ranorex.Plugin.Mobile.Device.Channels.AppLogicChannel.Touch(String loc, Int32 elementIdentifier, Boolean isLongClick, Int32 duration)
+   at Ranorex.Plugin.Mobile.Device.Channels.AppLogicChannel.Touch(IElementWithId element, TouchEvent evt)
+   at Ranorex.Plugin.Mobile.RxIntegration.Elements.MobileFlavorElement.Touch(TouchEvent evt)
+   at Ranorex.Touch.Tap(Element element, Int32 pointer, Location location, Duration touchDuration)
+   at Ranorex.Adapter.Touch()
+   at MyTest2.Pool_Add.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs:line 101
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="101"
+				loglvl="Error"
+				itemindex="30">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="47.17s"
+		durationms="47174"
+		type="root"
+		rid="226600894757a38b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="09-09-2020 19:52:00"
+		timestampiso="2020-09-09T14:22:00"
+		endtime="09-09-2020 19:52:47"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="41.61s"
+			durationms="41612"
+			type="test-suite"
+			rid="dfd47709f89304d"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest2"
+			headertext="MyTest2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="22.33s"
+				durationms="22334"
+				type="test-case"
+				rid="1706cf655649a22c"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="9d3ce664-3a92-4816-9ec7-cea490442f06"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="22.31s"
+					durationms="22310"
+					type="test-module"
+					rid="1e5e3b4e8afaf14"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="b100963f-eefc-4d56-87e0-699d5727f837"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.068"
+						timeRelativeToTestModuleStartTime="00:00.016"
+						timeWallClock="19:52:05"
+						time="00:00.068"
+						level="Info"
+						category="Application">
+						<message>
+							Run mobile app 'com.pentair.pentairhome' on device 'dellâ€™s iPhone'.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.898"
+						timeRelativeToTestModuleStartTime="00:08.846"
+						timeWallClock="19:52:14"
+						time="00:08.898"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 10s.
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.999"
+						timeRelativeToTestModuleStartTime="00:18.947"
+						timeWallClock="19:52:24"
+						time="00:18.999"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.Skip' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='AppWalkthroughNextButton']/container[@accessibilitylabel='Skip']"
+							itempath=".//container[@accessibilityid='AppWalkthroughNextButton']/container[@accessibilitylabel='Skip']"
+							fullname="MyTest2Repository.ComPentairPentairhome.Skip"
+							id="e55e14652c1a4d76843c26e5025a1891"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.270"
+						timeRelativeToTestModuleStartTime="00:22.218"
+						timeWallClock="19:52:27"
+						time="00:22.270"
+						level="Success"
+						category="User">
+						<message>
+							
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording1.cs"
+							codeline="93"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="19.24s"
+				durationms="19243"
+				type="test-case"
+				rid="b79bc0dd3434c90"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Login_into_the_application_"
+				testcontainerid="7c236f7e-25ab-4595-856d-0274d575dcb9"
+				headertext="Login_into_the_application_"
+				displayName="Login_into_the_application_"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="19.24s"
+					durationms="19241"
+					type="test-module"
+					rid="1a54c38fcab3745"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Login"
+					displayName="Login"
+					moduleid="887dd196-2e24-4467-a072-5a65652cc814"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Attribute 'Caption' of element for item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesWhiteLo' does not match the specified value (actual='', expected='PENTAIR').
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:22.373"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="19:52:27"
+						time="00:22.373"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute Text to 'qaic123@mailinator.com' on item 'ComPentairPentairhome.LoginTextInputEmail'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='LoginTextInputEmail']"
+							itempath=".//text[@accessibilityid='LoginTextInputEmail']"
+							fullname="MyTest2Repository.ComPentairPentairhome.LoginTextInputEmail"
+							id="68226044a923432e93afe64947f37b19"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.050"
+						timeRelativeToTestModuleStartTime="00:00.681"
+						timeWallClock="19:52:28"
+						time="00:23.050"
+						level="Info"
+						category="Set value">
+						<message>
+							Setting attribute Text to 'Pentair@123' on item 'ComPentairPentairhome.LoginTextInputPassword'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='LoginTextInputPassword']"
+							itempath=".//text[@accessibilityid='LoginTextInputPassword']"
+							fullname="MyTest2Repository.ComPentairPentairhome.LoginTextInputPassword"
+							id="6cc7f4a68d1640caa7de3ee9b77fbaab"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.785"
+						timeRelativeToTestModuleStartTime="00:01.416"
+						timeWallClock="19:52:29"
+						time="00:23.785"
+						level="Info"
+						category="Touch">
+						<message>
+							Touch item 'ComPentairPentairhome.LOGIN' at Center
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='LOG IN']"
+							itempath=".//container[@accessibilitylabel='LOG IN']"
+							fullname="MyTest2Repository.ComPentairPentairhome.LOGIN"
+							id="027ec05f88b94997bffe9e84a7f93e57"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.145"
+						timeRelativeToTestModuleStartTime="00:02.776"
+						timeWallClock="19:52:30"
+						time="00:25.145"
+						level="Info"
+						category="Delay">
+						<message>
+							Waiting for 10s.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="94"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.201"
+						timeRelativeToTestModuleStartTime="00:12.832"
+						timeWallClock="19:52:40"
+						time="00:35.201"
+						level="Info"
+						category="User">
+						<message>
+							Logged In Sucessfully
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="97"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.292"
+						timeRelativeToTestModuleStartTime="00:12.923"
+						timeWallClock="19:52:40"
+						time="00:35.292"
+						level="Info"
+						category="Validation"
+						errimg="images_MyTest2__c5dfc84e\MyTest2__c5dfc84e_2c80fe54_trace.jpg"
+						errthumb="images_MyTest2__c5dfc84e\MyTest2__c5dfc84e_2c80fe54_trace_thumb.jpg">
+						<message>
+							Validating AttributeEqual (Caption='PENTAIR') on item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesWhiteLo'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/whiteLogo@2x.png']"
+							itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/whiteLogo@2x.png']"
+							fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesWhiteLo"
+							id="ff06640765854956b9ffab284ee58d16"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="99"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.276"
+						timeRelativeToTestModuleStartTime="00:18.907"
+						timeWallClock="19:52:46"
+						time="00:41.276"
+						level="Failure"
+						category="Validation"
+						errimg="images_MyTest2__c5dfc84e\MyTest2__c5dfc84e_7ac30b0c_trace.jpg"
+						errthumb="images_MyTest2__c5dfc84e\MyTest2__c5dfc84e_7ac30b0c_trace_thumb.jpg">
+						<message>
+							Attribute 'Caption' of element for item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesWhiteLo' does not match the specified value (actual='', expected='PENTAIR').
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/whiteLogo@2x.png']"
+							itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/whiteLogo@2x.png']"
+							fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesWhiteLo"
+							id="ff06640765854956b9ffab284ee58d16"
+							timeout="60000"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="100"
+							loglvl="Failure"
+							itemindex="5">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.455"
+						timeRelativeToTestModuleStartTime="00:19.086"
+						timeWallClock="19:52:47"
+						time="00:41.455"
+						level="Error"
+						category="Module"
+						errimg="images_MyTest2__c5dfc84e\MyTest2__c5dfc84e_88f56e1f_trace.jpg"
+						errthumb="images_MyTest2__c5dfc84e\MyTest2__c5dfc84e_88f56e1f_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Attribute 'Caption' of element for item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesWhiteLo' does not match the specified value (actual='', expected='PENTAIR').
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   at Ranorex.Validate.AttributeEqualInternal(IElement element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   at MyTest2.Login.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs:line 100
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Login.cs"
+							codeline="100"
+							type="repoitem"
+							path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/whiteLogo@2x.png']"
+							itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/whiteLogo@2x.png']"
+							fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesWhiteLo"
+							id="ff06640765854956b9ffab284ee58d16"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="5">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

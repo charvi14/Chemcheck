@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="41.46s"
+		durationms="41463"
+		type="root"
+		rid="8e4798583c59c6c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="01-10-2020 12:58:29"
+		timestampiso="2020-10-01T07:28:29"
+		endtime="01-10-2020 12:59:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="WaterTestusingTeststrip">
+		<detail>
+			WaterTestusingTeststrip
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest2Repository.Water_Quality.PH_value'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.297"
+			timeRelativeToTestModuleStartTime="00:04.297"
+			timeWallClock="12:58:33"
+			time="00:04.297"
+			level="Warn"
+			category="Data"
+			errimg="images_WaterTes_2a24e3b4\WaterTes_2a24e3b4_a8e43f1a_trace.jpg"
+			errthumb="images_WaterTes_2a24e3b4\WaterTes_2a24e3b4_a8e43f1a_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>PHvalue, Chlorine, pHagain, TotalChlorine, TotalAlkalinity, Calcium, CyanuricAcid, DeviceNamevar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.324"
+			timeRelativeToTestModuleStartTime="00:04.324"
+			timeWallClock="12:58:33"
+			time="00:04.324"
+			level="Info"
+			category="Delay"
+			errimg="images_WaterTes_2a24e3b4\WaterTes_2a24e3b4_a8e43f1a_trace.jpg"
+			errthumb="images_WaterTes_2a24e3b4\WaterTes_2a24e3b4_a8e43f1a_trace_thumb.jpg">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="30"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="183"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.330"
+			timeRelativeToTestModuleStartTime="00:09.330"
+			timeWallClock="12:58:38"
+			time="00:09.330"
+			level="Info"
+			category="Touch"
+			errimg="images_WaterTes_2a24e3b4\WaterTes_2a24e3b4_298d80e9_trace.jpg"
+			errthumb="images_WaterTes_2a24e3b4\WaterTes_2a24e3b4_298d80e9_trace_thumb.jpg">
+			<message>
+				Touch item 'Water_Quality.PH_value' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']"
+				fullname="MyTest2Repository.Water_Quality.PH_value"
+				id="675915855a414506ae0b1b2eaae14c3c"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="186"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.613"
+			timeRelativeToTestModuleStartTime="00:39.613"
+			timeWallClock="12:59:09"
+			time="00:39.613"
+			level="Error"
+			category="Module"
+			errimg="images_WaterTes_2a24e3b4\WaterTes_2a24e3b4_41702082_trace.jpg"
+			errthumb="images_WaterTes_2a24e3b4\WaterTes_2a24e3b4_41702082_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest2Repository.Water_Quality.PH_value'.<br/>No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']' at step 'descendant-or-self::container[@accessibilitylabel='6']' after 87 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.get_PH_value() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\MyTest2Repository.cs:line 2320&#13;&#10;   at MyTest2.WaterTestusingTeststrip.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs:line 187&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="187"
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']"
+				fullname="MyTest2Repository.Water_Quality.PH_value"
+				id="675915855a414506ae0b1b2eaae14c3c"
+				timeout="30000"
+				failedStep="descendant-or-self::container[@accessibilitylabel='6']"
+				bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+				loglvl="Error"
+				itemindex="31">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,8 @@
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+C:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb

@@ -1,0 +1,29 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="PH_Calibration.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="MyTest2.rxtst" />
+    <Element value="PH_Calibration.rxrec" />
+    <Element value="WaterTestusingTeststrip.rxrec" />
+    <Element value="Indoor_Unbalanced_Water_Quality.rxrec" />
+    <Element value="Pool_Device_remove.rxrec" />
+    <Element value="Settings_Product_Overview.rxrec" />
+    <Element value="Indoor_Balanced_Verification.rxrec" />
+    <Element value="Water_Balance_Indoor_Pool.rxrec" />
+    <Element value="WaterTestBalancedValues.rxrec" />
+    <Element value="Home_Dashboard.rxrec" />
+    <Element value="Sanitize_Calibration.rxrec" />
+    <Element value="TestStrip_data.csv" />
+    <Element value="TestStrip_balanceddata.csv" />
+    <Element value="DeviceDasboard.rxrec" />
+    <Element value="MCQDatabase.csv" />
+    <Element value="TestStrip_balanceddata_Indoor.csv" />
+    <Element value="Device_Name.csv" />
+    <Element value="WaterTemperature.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

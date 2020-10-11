@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="66689"
+		type="root"
+		rid="6b6c4107d5e8192"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="22-09-2020 12:11:26"
+		timestampiso="2020-09-22T06:41:26"
+		endtime="22-09-2020 12:12:33"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Home_Dashboard">
+		<detail>
+			Home_Dashboard
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.504"
+			timeRelativeToTestModuleStartTime="00:05.504"
+			timeWallClock="12:11:32"
+			time="00:05.504"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>DeviceNamevar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.539"
+			timeRelativeToTestModuleStartTime="00:05.539"
+			timeWallClock="12:11:32"
+			time="00:05.539"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Alert icon successfully verified<br/>Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+				itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific"
+				id="9499ec0511034a508b914dfa5b05b13e"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+				codeline="94"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.704"
+			timeRelativeToTestModuleStartTime="01:05.704"
+			timeWallClock="12:12:32"
+			time="01:05.704"
+			level="Failure"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific' does not match the specified value (Failed to find item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']' at step 'descendant-or-self::container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']' after 277 attempts within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+				itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific"
+				id="9499ec0511034a508b914dfa5b05b13e"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+				codeline="95"
+				failedStep="descendant-or-self::container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+				bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+				loglvl="Failure"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.706"
+			timeRelativeToTestModuleStartTime="01:05.706"
+			timeWallClock="12:12:32"
+			time="01:05.706"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.Bell_Alert'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']"
+				itempath=".//container[@accessibilityid='headerRightImage']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Bell_Alert"
+				id="ab76bddc6abf484295c3c72b2ead6294"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+				codeline="100"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.866"
+			timeRelativeToTestModuleStartTime="01:05.866"
+			timeWallClock="12:12:32"
+			time="01:05.866"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.Bell_Alert' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']"
+				itempath=".//container[@accessibilityid='headerRightImage']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Bell_Alert"
+				id="ab76bddc6abf484295c3c72b2ead6294"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+				codeline="101"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.866"
+			timeRelativeToTestModuleStartTime="01:05.866"
+			timeWallClock="12:12:32"
+			time="01:05.866"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+				itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2"
+				id="e9593837f0fe4fcc8f851cb9b8de3c9c"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+				codeline="105"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.015"
+			timeRelativeToTestModuleStartTime="01:06.015"
+			timeWallClock="12:12:32"
+			time="01:06.015"
+			level="Success"
+			category="Validation"
+			errimg="images_Home_Das_a4567121\Home_Das_a4567121_b13119dd_trace.jpg"
+			errthumb="images_Home_Das_a4567121\Home_Das_a4567121_b13119dd_trace_thumb.jpg">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+				itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2"
+				id="e9593837f0fe4fcc8f851cb9b8de3c9c"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+				codeline="106"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.016"
+			timeRelativeToTestModuleStartTime="01:06.016"
+			timeWallClock="12:12:32"
+			time="01:06.016"
+			level="Info"
+			category="Validation"
+			errimg="images_Home_Das_a4567121\Home_Das_a4567121_b13119dd_trace.jpg"
+			errthumb="images_Home_Das_a4567121\Home_Das_a4567121_b13119dd_trace_thumb.jpg">
+			<message>
+				(Optional Action)<br/>Problem Detected Section Sucessfullt verified<br/>Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.ProblemDetected'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+				itempath=".//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+				fullname="MyTest2Repository.ComPentairPentairhome.ProblemDetected"
+				id="5384ab290a984797b4cb990ca593b3f6"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+				codeline="111"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.175"
+			timeRelativeToTestModuleStartTime="01:06.175"
+			timeWallClock="12:12:32"
+			time="01:06.175"
+			level="Success"
+			category="Validation"
+			errimg="images_Home_Das_a4567121\Home_Das_a4567121_b13119dd_trace.jpg"
+			errthumb="images_Home_Das_a4567121\Home_Das_a4567121_b13119dd_trace_thumb.jpg">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.ProblemDetected' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+				itempath=".//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+				fullname="MyTest2Repository.ComPentairPentairhome.ProblemDetected"
+				id="5384ab290a984797b4cb990ca593b3f6"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+				codeline="112"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.176"
+			timeRelativeToTestModuleStartTime="01:06.176"
+			timeWallClock="12:12:32"
+			time="01:06.176"
+			level="Error"
+			category="Module"
+			errimg="images_Home_Das_a4567121\Home_Das_a4567121_7827ee7f_trace.jpg"
+			errthumb="images_Home_Das_a4567121\Home_Das_a4567121_7827ee7f_trace_thumb.jpg">
+			<message>
+				The module has failed because one or more actions have failed.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

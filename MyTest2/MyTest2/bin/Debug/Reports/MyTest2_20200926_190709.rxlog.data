@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="3.8m"
+		durationms="229852"
+		type="root"
+		rid="b71060e8ab56ddf"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="26-09-2020 19:07:09"
+		timestampiso="2020-09-26T13:37:09"
+		endtime="26-09-2020 19:10:59"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="3.6m"
+			durationms="217923"
+			type="test-suite"
+			rid="1a3a075834810fb"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest2"
+			headertext="MyTest2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="3.6m"
+				durationms="217888"
+				type="iteration-container"
+				rid="344dd48a832e05f"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="Verify_the_Home_Dashboard(Bell,_Setting,_Alert_and_Device)"
+				headertext="Verify_the_Home_Dashboard(Bell,_Setting,_Alert_and_Device)"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="0e65cd12-9472-4408-92f6-f08582e24980"
+				datasource="NewConnector2"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="3.6m"
+					durationms="217881"
+					type="test-case"
+					rid="147eaba52ef073e"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Verify_the_Home_Dashboard(Bell,_Setting,_Alert_and_Device)"
+					testcontainerid="0e65cd12-9472-4408-92f6-f08582e24980"
+					headertext="Verify_the_Home_Dashboard(Bell,_Setting,_Alert_and_Device)"
+					displayName="Verify_the_Home_Dashboard(Bell,_Setting,_Alert_and_Device)"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="DeviceName">
+							ChemCheck
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="3.6m"
+						durationms="217841"
+						type="test-module"
+						rid="301f2a8f28f968de"
+						totalerrorcount="1"
+						totalwarningcount="2"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Home_Dashboard"
+						displayName="Home_Dashboard"
+						moduleid="9347a5af-d853-452d-bb8c-f8f32d8cfa8e"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="DeviceNamevar"
+								value="ChemCheck">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.094"
+							timeRelativeToTestModuleStartTime="00:00.013"
+							timeWallClock="19:07:21"
+							time="00:00.094"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$DeviceNamevar = 'ChemCheck'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.185"
+							timeRelativeToTestModuleStartTime="00:00.105"
+							timeWallClock="19:07:21"
+							time="00:00.185"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Alert icon successfully verified<br/>Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+								itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+								fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific"
+								id="9499ec0511034a508b914dfa5b05b13e"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="95"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:01.012"
+							timeRelativeToTestModuleStartTime="01:00.932"
+							timeWallClock="19:08:22"
+							time="01:01.012"
+							level="Info"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific' does not match the specified value (Failed to find item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']' at step 'descendant-or-self::container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']' after 158 attempts within 1m.).
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+								itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+								fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific"
+								id="9499ec0511034a508b914dfa5b05b13e"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="96"
+								failedStep="descendant-or-self::container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+								bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+								loglvl="Info"
+								itemindex="0">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:01.917"
+							timeRelativeToTestModuleStartTime="01:01.837"
+							timeWallClock="19:08:23"
+							time="01:01.917"
+							level="Warn"
+							category="Module">
+							<message>
+								(Optional Action) Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific' does not match the specified value (Failed to find item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']' at step 'descendant-or-self::container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']' after 158 attempts within 1m.).
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="98"
+								loglvl="Warn"
+								id="9499ec0511034a508b914dfa5b05b13e"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/notificationWhite@2x.png']"
+								fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesNotific">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:01.995"
+							timeRelativeToTestModuleStartTime="01:01.914"
+							timeWallClock="19:08:23"
+							time="01:01.995"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.Bell_Alert'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']"
+								itempath=".//container[@accessibilityid='headerRightImage']"
+								fullname="MyTest2Repository.ComPentairPentairhome.Bell_Alert"
+								id="ab76bddc6abf484295c3c72b2ead6294"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="101"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:02.540"
+							timeRelativeToTestModuleStartTime="01:02.460"
+							timeWallClock="19:08:24"
+							time="01:02.540"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.Bell_Alert' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']"
+								itempath=".//container[@accessibilityid='headerRightImage']"
+								fullname="MyTest2Repository.ComPentairPentairhome.Bell_Alert"
+								id="ab76bddc6abf484295c3c72b2ead6294"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="102"
+								loglvl="Success"
+								itemindex="1">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:03.148"
+							timeRelativeToTestModuleStartTime="01:03.068"
+							timeWallClock="19:08:24"
+							time="01:03.148"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2"
+								id="e9593837f0fe4fcc8f851cb9b8de3c9c"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="106"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:03.692"
+							timeRelativeToTestModuleStartTime="01:03.611"
+							timeWallClock="19:08:25"
+							time="01:03.692"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2"
+								id="e9593837f0fe4fcc8f851cb9b8de3c9c"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="107"
+								loglvl="Success"
+								itemindex="2">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:04.344"
+							timeRelativeToTestModuleStartTime="01:04.264"
+							timeWallClock="19:08:26"
+							time="01:04.344"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Problem Detected Section Sucessfullt verified<br/>Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.ProblemDetected'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+								itempath=".//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+								fullname="MyTest2Repository.ComPentairPentairhome.ProblemDetected"
+								id="5384ab290a984797b4cb990ca593b3f6"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="112"
+								itemindex="3"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:04.782"
+							timeRelativeToTestModuleStartTime="02:04.701"
+							timeWallClock="19:09:26"
+							time="02:04.782"
+							level="Info"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.ProblemDetected' does not match the specified value (Failed to find item 'MyTest2Repository.ComPentairPentairhome.ProblemDetected'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']' at step 'descendant-or-self::container[@accessibilitylabel='Problem Detected']' after 166 attempts within 1m.).
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+								itempath=".//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+								fullname="MyTest2Repository.ComPentairPentairhome.ProblemDetected"
+								id="5384ab290a984797b4cb990ca593b3f6"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="113"
+								failedStep="descendant-or-self::container[@accessibilitylabel='Problem Detected']"
+								bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+								loglvl="Info"
+								itemindex="3">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:05.944"
+							timeRelativeToTestModuleStartTime="02:05.864"
+							timeWallClock="19:09:27"
+							time="02:05.944"
+							level="Warn"
+							category="Module">
+							<message>
+								(Optional Action) Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.ProblemDetected' does not match the specified value (Failed to find item 'MyTest2Repository.ComPentairPentairhome.ProblemDetected'. No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']' at step 'descendant-or-self::container[@accessibilitylabel='Problem Detected']' after 166 attempts within 1m.).
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="115"
+								loglvl="Warn"
+								id="5384ab290a984797b4cb990ca593b3f6"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Problem Detected']/container[@accessibilitylabel='Problem Detected']"
+								fullname="MyTest2Repository.ComPentairPentairhome.ProblemDetected">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:06.056"
+							timeRelativeToTestModuleStartTime="02:05.975"
+							timeWallClock="19:09:27"
+							time="02:06.056"
+							level="Info"
+							category="Validation">
+							<message>
+								(Optional Action)<br/>Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.EverythingOK'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Everything OK']/container[@accessibilitylabel='Everything OK']"
+								itempath=".//container[@accessibilitylabel='Everything OK']/container[@accessibilitylabel='Everything OK']"
+								fullname="MyTest2Repository.ComPentairPentairhome.EverythingOK"
+								id="419ce16387544b47a195427d98c65a72"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="118"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:06.410"
+							timeRelativeToTestModuleStartTime="02:06.329"
+							timeWallClock="19:09:28"
+							time="02:06.410"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.EverythingOK' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Everything OK']/container[@accessibilitylabel='Everything OK']"
+								itempath=".//container[@accessibilitylabel='Everything OK']/container[@accessibilitylabel='Everything OK']"
+								fullname="MyTest2Repository.ComPentairPentairhome.EverythingOK"
+								id="419ce16387544b47a195427d98c65a72"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="119"
+								loglvl="Success"
+								itemindex="4">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:08.251"
+							timeRelativeToTestModuleStartTime="02:08.170"
+							timeWallClock="19:09:29"
+							time="02:08.251"
+							level="Info"
+							category="User"
+							errimg="images_MyTest2__d216d306\MyTest2__25addc32_rxlog.jpg"
+							errthumb="images_MyTest2__d216d306\MyTest2__25addc32_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="5"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="123"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:08.262"
+							timeRelativeToTestModuleStartTime="02:08.181"
+							timeWallClock="19:09:29"
+							time="02:08.262"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2"
+								id="e9593837f0fe4fcc8f851cb9b8de3c9c"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="125"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:19.349"
+							timeRelativeToTestModuleStartTime="02:19.268"
+							timeWallClock="19:09:41"
+							time="02:19.349"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.Dashboard_DeviceName' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='ChemCheck']"
+								itempath=".//container[@accessibilitylabel=$DeviceNamevar]"
+								fullname="MyTest2Repository.ComPentairPentairhome.Dashboard_DeviceName"
+								id="7cade83d2e9d4ea79261359060eac7b5"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="133"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:31.458"
+							timeRelativeToTestModuleStartTime="02:31.378"
+							timeWallClock="19:09:53"
+							time="02:31.458"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Edit_Dashboard.SaveEditDashboard' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']"
+								fullname="MyTest2Repository.Edit_Dashboard.SaveEditDashboard"
+								id="ba7dd9f90cf34a3aa2d6e2ecc0f18fbc"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="137"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:43.171"
+							timeRelativeToTestModuleStartTime="02:43.091"
+							timeWallClock="19:10:04"
+							time="02:43.171"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeNotEqual (Visible!=$DeviceNamevar) on item 'ComPentairPentairhome.DeviceName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+								itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel=$DeviceNamevar]"
+								fullname="MyTest2Repository.ComPentairPentairhome.DeviceName"
+								id="102b50d466a94255b9d3ac91568f6685"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="141"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:44.512"
+							timeRelativeToTestModuleStartTime="02:44.431"
+							timeWallClock="19:10:06"
+							time="02:44.512"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.DeviceName' does not match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+								itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel=$DeviceNamevar]"
+								fullname="MyTest2Repository.ComPentairPentairhome.DeviceName"
+								id="102b50d466a94255b9d3ac91568f6685"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="142"
+								loglvl="Success"
+								itemindex="10">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:44.708"
+							timeRelativeToTestModuleStartTime="02:44.627"
+							timeWallClock="19:10:06"
+							time="02:44.708"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								itempath=".//container[@accessibilityid='assets/src/Common_Feature/Images/gear@2x.png']"
+								fullname="MyTest2Repository.ComPentairPentairhome.AssetsSrcCommonFeatureImagesGearAt2"
+								id="e9593837f0fe4fcc8f851cb9b8de3c9c"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="145"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:56.390"
+							timeRelativeToTestModuleStartTime="02:56.310"
+							timeWallClock="19:10:18"
+							time="02:56.390"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.DeviceName' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='ChemCheck']"
+								itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel=$DeviceNamevar]"
+								fullname="MyTest2Repository.ComPentairPentairhome.DeviceName"
+								id="102b50d466a94255b9d3ac91568f6685"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Home_Dashboard.cs"
+								codeline="149"
+								itemindex="12"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:37.922"
+							timeRelativeToTestModuleStartTime="03:37.841"
+							timeWallClock="19:10:59"
+							time="03:37.922"
+							level="Error"
+							category="Module">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

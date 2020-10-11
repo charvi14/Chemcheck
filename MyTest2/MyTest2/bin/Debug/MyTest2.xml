@@ -1,0 +1,2315 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTest2</name>
+    </assembly>
+    <members>
+        <member name="T:MyTest2.DeviceDasboard">
+             <summary>
+            The DeviceDasboard recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.DeviceDasboard.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.DeviceDasboard.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.DeviceDasboard.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.DeviceDasboard.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.DeviceDasboard.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.DeviceDasboard.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.DeviceDasboard.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.DeviceDasboard.DeviceNamevar">
+            <summary>
+            Gets or sets the value of variable DeviceNamevar.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Home_Dashboard">
+             <summary>
+            The Home_Dashboard recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Home_Dashboard.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Home_Dashboard.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Home_Dashboard.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Home_Dashboard.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Home_Dashboard.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Home_Dashboard.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Home_Dashboard.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Home_Dashboard.DeviceNamevar">
+            <summary>
+            Gets or sets the value of variable DeviceNamevar.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Indoor_Balanced_Verification">
+             <summary>
+            The Indoor_Balanced_Verification recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Indoor_Balanced_Verification.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Indoor_Balanced_Verification.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Indoor_Balanced_Verification.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Indoor_Balanced_Verification.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Indoor_Balanced_Verification.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Indoor_Balanced_Verification.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Balanced_Verification.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Balanced_Verification.pHBalanced">
+            <summary>
+            Gets or sets the value of variable pHBalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Balanced_Verification.ChlorineBalanced">
+            <summary>
+            Gets or sets the value of variable ChlorineBalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Balanced_Verification.totalchbalanced">
+            <summary>
+            Gets or sets the value of variable totalchbalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Balanced_Verification.TotalAlkabalanced">
+            <summary>
+            Gets or sets the value of variable TotalAlkabalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Balanced_Verification.calciumbalanced">
+            <summary>
+            Gets or sets the value of variable calciumbalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Balanced_Verification.Cyanuricbalaned">
+            <summary>
+            Gets or sets the value of variable Cyanuricbalaned.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Indoor_Unbalanced_Water_Quality">
+             <summary>
+            The Indoor_Unbalanced_Water_Quality recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Indoor_Unbalanced_Water_Quality.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Indoor_Unbalanced_Water_Quality.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Indoor_Unbalanced_Water_Quality.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Indoor_Unbalanced_Water_Quality.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Indoor_Unbalanced_Water_Quality.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Indoor_Unbalanced_Water_Quality.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Unbalanced_Water_Quality.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Unbalanced_Water_Quality.PHvalue">
+            <summary>
+            Gets or sets the value of variable PHvalue.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Unbalanced_Water_Quality.pHagain">
+            <summary>
+            Gets or sets the value of variable pHagain.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Unbalanced_Water_Quality.Chlorine">
+            <summary>
+            Gets or sets the value of variable Chlorine.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Unbalanced_Water_Quality.TotalChlorine">
+            <summary>
+            Gets or sets the value of variable TotalChlorine.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Unbalanced_Water_Quality.TotalAlkalinity">
+            <summary>
+            Gets or sets the value of variable TotalAlkalinity.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Indoor_Unbalanced_Water_Quality.Calcium">
+            <summary>
+            Gets or sets the value of variable Calcium.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Login.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Login.txtUsername">
+            <summary>
+            Gets or sets the value of variable txtUsername.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Login.txtPassword">
+            <summary>
+            Gets or sets the value of variable txtPassword.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2Repository">
+            <summary>
+            The class representing the MyTest2Repository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTest2Repository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.DeviceNamevar">
+            <summary>
+            Gets or sets the value of variable DeviceNamevar.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.ComPentairPentairhome">
+            <summary>
+            The ComPentairPentairhome folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.PH_Screen">
+            <summary>
+            The PH_Screen folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.DellasIPhone">
+            <summary>
+            The DellasIPhone folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.Sanitizer_Screen">
+            <summary>
+            The Sanitizer_Screen folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.Water_Quality">
+            <summary>
+            The Water_Quality folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.Product_Overview">
+            <summary>
+            The Product_Overview folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.Edit_Dashboard">
+            <summary>
+            The Edit_Dashboard folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.Pool_Add">
+            <summary>
+            The Pool_Add folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2Repository.Calibration">
+            <summary>
+            The Calibration folder.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder">
+            <summary>
+            The ComPentairPentairhomeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ComPentairPentairhome  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Skip">
+            <summary>
+            The Skip item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.SkipInfo">
+            <summary>
+            The Skip item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.LoginTextInputEmail">
+            <summary>
+            The LoginTextInputEmail item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.LoginTextInputEmailInfo">
+            <summary>
+            The LoginTextInputEmail item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.LoginTextInputPassword">
+            <summary>
+            The LoginTextInputPassword item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.LoginTextInputPasswordInfo">
+            <summary>
+            The LoginTextInputPassword item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.LOGIN">
+            <summary>
+            The LOGIN item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.LOGINInfo">
+            <summary>
+            The LOGIN item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesWhiteLo">
+            <summary>
+            The AssetsSrcCommonFeatureImagesWhiteLo item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesWhiteLoInfo">
+            <summary>
+            The AssetsSrcCommonFeatureImagesWhiteLo item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesNotific">
+            <summary>
+            The AssetsSrcCommonFeatureImagesNotific item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesNotificInfo">
+            <summary>
+            The AssetsSrcCommonFeatureImagesNotific item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HeaderLeftImage">
+            <summary>
+            The HeaderLeftImage item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HeaderLeftImageInfo">
+            <summary>
+            The HeaderLeftImage item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.RCTView">
+            <summary>
+            The RCTView item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.RCTViewInfo">
+            <summary>
+            The RCTView item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.ProblemDetected">
+            <summary>
+            The ProblemDetected item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.ProblemDetectedInfo">
+            <summary>
+            The ProblemDetected item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.DeviceName">
+            <summary>
+            The DeviceName item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.DeviceNameInfo">
+            <summary>
+            The DeviceName item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AlertDetected">
+            <summary>
+            The AlertDetected item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AlertDetectedInfo">
+            <summary>
+            The AlertDetected item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Reminder">
+            <summary>
+            The Reminder item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.ReminderInfo">
+            <summary>
+            The Reminder item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterTemperature">
+            <summary>
+            The WaterTemperature item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterTemperatureInfo">
+            <summary>
+            The WaterTemperature item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.ContainerPH">
+            <summary>
+            The ContainerPH item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.ContainerPHInfo">
+            <summary>
+            The ContainerPH item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Sanitizer">
+            <summary>
+            The Sanitizer item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.SanitizerInfo">
+            <summary>
+            The Sanitizer item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterQuality">
+            <summary>
+            The WaterQuality item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterQualityInfo">
+            <summary>
+            The WaterQuality item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterTemperatureHistoryHourlyDailyW">
+            <summary>
+            The WaterTemperatureHistoryHourlyDailyW item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterTemperatureHistoryHourlyDailyWInfo">
+            <summary>
+            The WaterTemperatureHistoryHourlyDailyW item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.RCTImageView">
+            <summary>
+            The RCTImageView item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.RCTImageViewInfo">
+            <summary>
+            The RCTImageView item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesGearAt2">
+            <summary>
+            The AssetsSrcCommonFeatureImagesGearAt2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesGearAt2Info">
+            <summary>
+            The AssetsSrcCommonFeatureImagesGearAt2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HeaderLeftImage1">
+            <summary>
+            The HeaderLeftImage1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HeaderLeftImage1Info">
+            <summary>
+            The HeaderLeftImage1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.UIWindow">
+            <summary>
+            The UIWindow item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.UIWindowInfo">
+            <summary>
+            The UIWindow item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HeaderRightImage">
+            <summary>
+            The HeaderRightImage item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HeaderRightImageInfo">
+            <summary>
+            The HeaderRightImage item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterTemperatureHistoryHourlyDailyW1">
+            <summary>
+            The WaterTemperatureHistoryHourlyDailyW1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterTemperatureHistoryHourlyDailyW1Info">
+            <summary>
+            The WaterTemperatureHistoryHourlyDailyW1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Daily">
+            <summary>
+            The Daily item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.DailyInfo">
+            <summary>
+            The Daily item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Weekly">
+            <summary>
+            The Weekly item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WeeklyInfo">
+            <summary>
+            The Weekly item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterTemperatureHistoryHourlyDailyW2">
+            <summary>
+            The WaterTemperatureHistoryHourlyDailyW2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.WaterTemperatureHistoryHourlyDailyW2Info">
+            <summary>
+            The WaterTemperatureHistoryHourlyDailyW2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Monthly">
+            <summary>
+            The Monthly item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.MonthlyInfo">
+            <summary>
+            The Monthly item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HistoryHourlyDailyWeeklyMonthly">
+            <summary>
+            The HistoryHourlyDailyWeeklyMonthly item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HistoryHourlyDailyWeeklyMonthlyInfo">
+            <summary>
+            The HistoryHourlyDailyWeeklyMonthly item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesIconBac">
+            <summary>
+            The AssetsSrcCommonFeatureImagesIconBac item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesIconBacInfo">
+            <summary>
+            The AssetsSrcCommonFeatureImagesIconBac item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.RCTView1">
+            <summary>
+            The RCTView1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.RCTView1Info">
+            <summary>
+            The RCTView1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.TESTSTRIP">
+            <summary>
+            The TESTSTRIP item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.TESTSTRIPInfo">
+            <summary>
+            The TESTSTRIP item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Bell_Alert">
+            <summary>
+            The Bell_Alert item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Bell_AlertInfo">
+            <summary>
+            The Bell_Alert item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.EverythingOK">
+            <summary>
+            The EverythingOK item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.EverythingOKInfo">
+            <summary>
+            The EverythingOK item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.RCTImageView1">
+            <summary>
+            The RCTImageView1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.RCTImageView1Info">
+            <summary>
+            The RCTImageView1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HomeDashboard">
+            <summary>
+            The HomeDashboard item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.HomeDashboardInfo">
+            <summary>
+            The HomeDashboard item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesHomeAle">
+            <summary>
+            The AssetsSrcCommonFeatureImagesHomeAle item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.AssetsSrcCommonFeatureImagesHomeAleInfo">
+            <summary>
+            The AssetsSrcCommonFeatureImagesHomeAle item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Dashboard_DeviceName">
+            <summary>
+            The Dashboard_DeviceName item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Dashboard_DeviceNameInfo">
+            <summary>
+            The Dashboard_DeviceName item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Pool_device_Address">
+            <summary>
+            The Pool_device_Address item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.Pool_device_AddressInfo">
+            <summary>
+            The Pool_device_Address item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder">
+            <summary>
+            The PH_ScreenFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PH_Screen  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.PHSelectABlueDotForTheActualRead1">
+            <summary>
+            The PHSelectABlueDotForTheActualRead1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.PHSelectABlueDotForTheActualRead1Info">
+            <summary>
+            The PHSelectABlueDotForTheActualRead1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.Daily1">
+            <summary>
+            The Daily1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.Daily1Info">
+            <summary>
+            The Daily1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.PHSelectABlueDotForTheDailyAvera">
+            <summary>
+            The PHSelectABlueDotForTheDailyAvera item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.PHSelectABlueDotForTheDailyAveraInfo">
+            <summary>
+            The PHSelectABlueDotForTheDailyAvera item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.PHSelectABlueDotForTheWeeklyAver1">
+            <summary>
+            The PHSelectABlueDotForTheWeeklyAver1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.PHSelectABlueDotForTheWeeklyAver1Info">
+            <summary>
+            The PHSelectABlueDotForTheWeeklyAver1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.PHSelectABlueDotForTheMonthlyAve">
+            <summary>
+            The PHSelectABlueDotForTheMonthlyAve item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.PHSelectABlueDotForTheMonthlyAveInfo">
+            <summary>
+            The PHSelectABlueDotForTheMonthlyAve item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.ReviewNotification">
+            <summary>
+            The ReviewNotification item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.ReviewNotificationInfo">
+            <summary>
+            The ReviewNotification item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.Screenshot_DeviceDashboard">
+            <summary>
+            The Screenshot_DeviceDashboard item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.Screenshot_DeviceDashboardInfo">
+            <summary>
+            The Screenshot_DeviceDashboard item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.DellasIPhoneAppFolder">
+            <summary>
+            The DellasIPhoneAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.DellasIPhoneAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DellasIPhone  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.DellasIPhoneAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.DellasIPhoneAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder">
+            <summary>
+            The Sanitizer_ScreenFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Sanitizer_Screen  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SanitizerSelectABlueDotForTheActu">
+            <summary>
+            The SanitizerSelectABlueDotForTheActu item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SanitizerSelectABlueDotForTheActuInfo">
+            <summary>
+            The SanitizerSelectABlueDotForTheActu item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SanitizerSelectABlueDotForTheDail">
+            <summary>
+            The SanitizerSelectABlueDotForTheDail item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SanitizerSelectABlueDotForTheDailInfo">
+            <summary>
+            The SanitizerSelectABlueDotForTheDail item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SanitizerSelectABlueDotForTheWeek">
+            <summary>
+            The SanitizerSelectABlueDotForTheWeek item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SanitizerSelectABlueDotForTheWeekInfo">
+            <summary>
+            The SanitizerSelectABlueDotForTheWeek item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SanitizerSelectABlueDotForTheMont">
+            <summary>
+            The SanitizerSelectABlueDotForTheMont item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.SanitizerSelectABlueDotForTheMontInfo">
+            <summary>
+            The SanitizerSelectABlueDotForTheMont item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.HeaderLeftImage2">
+            <summary>
+            The HeaderLeftImage2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Sanitizer_ScreenFolder.HeaderLeftImage2Info">
+            <summary>
+            The HeaderLeftImage2 item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder">
+            <summary>
+            The Water_QualityFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Water_Quality  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.RCTUITextField">
+            <summary>
+            The RCTUITextField item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.RCTUITextFieldInfo">
+            <summary>
+            The RCTUITextField item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Chlorine">
+            <summary>
+            The Chlorine item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.ChlorineInfo">
+            <summary>
+            The Chlorine item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TotalChlorine">
+            <summary>
+            The TotalChlorine item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TotalChlorineInfo">
+            <summary>
+            The TotalChlorine item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TotalAlkalinity">
+            <summary>
+            The TotalAlkalinity item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TotalAlkalinityInfo">
+            <summary>
+            The TotalAlkalinity item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Calcium">
+            <summary>
+            The Calcium item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.CalciumInfo">
+            <summary>
+            The Calcium item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.CyanuricAcid">
+            <summary>
+            The CyanuricAcid item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.CyanuricAcidInfo">
+            <summary>
+            The CyanuricAcid item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TheValidRangeForPHIs59">
+            <summary>
+            The TheValidRangeForPHIs59 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TheValidRangeForPHIs59Info">
+            <summary>
+            The TheValidRangeForPHIs59 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TextOK">
+            <summary>
+            The TextOK item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TextOKInfo">
+            <summary>
+            The TextOK item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TotalAlkalinitylabel">
+            <summary>
+            The TotalAlkalinitylabel item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.TotalAlkalinitylabelInfo">
+            <summary>
+            The TotalAlkalinitylabel item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.CONTINUE">
+            <summary>
+            The CONTINUE item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.CONTINUEInfo">
+            <summary>
+            The CONTINUE item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.RCTUITextField1">
+            <summary>
+            The RCTUITextField1 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.RCTUITextField1Info">
+            <summary>
+            The RCTUITextField1 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.BalancedWater">
+            <summary>
+            The BalancedWater item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.BalancedWaterInfo">
+            <summary>
+            The BalancedWater item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Savebalanced">
+            <summary>
+            The Savebalanced item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.SavebalancedInfo">
+            <summary>
+            The Savebalanced item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.SodiumCarbonate">
+            <summary>
+            The SodiumCarbonate item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.SodiumCarbonateInfo">
+            <summary>
+            The SodiumCarbonate item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.RecommendedDosage">
+            <summary>
+            The RecommendedDosage item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.RecommendedDosageInfo">
+            <summary>
+            The RecommendedDosage item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Save">
+            <summary>
+            The Save item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.SaveInfo">
+            <summary>
+            The Save item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.RecommendCONTINUE">
+            <summary>
+            The RecommendCONTINUE item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.RecommendCONTINUEInfo">
+            <summary>
+            The RecommendCONTINUE item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.View_Test_history">
+            <summary>
+            The View_Test_history item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.View_Test_historyInfo">
+            <summary>
+            The View_Test_history item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Screenshot_balanced">
+            <summary>
+            The Screenshot_balanced item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Screenshot_balancedInfo">
+            <summary>
+            The Screenshot_balanced item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Hourly_water_history">
+            <summary>
+            The Hourly_water_history item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Hourly_water_historyInfo">
+            <summary>
+            The Hourly_water_history item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Free_chlorine_label">
+            <summary>
+            The Free_chlorine_label item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Free_chlorine_labelInfo">
+            <summary>
+            The Free_chlorine_label item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.PH_Level_label">
+            <summary>
+            The PH_Level_label item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.PH_Level_labelInfo">
+            <summary>
+            The PH_Level_label item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Alkanity_Level_Label">
+            <summary>
+            The Alkanity_Level_Label item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Alkanity_Level_LabelInfo">
+            <summary>
+            The Alkanity_Level_Label item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Cyanuric_acid_label">
+            <summary>
+            The Cyanuric_acid_label item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Cyanuric_acid_labelInfo">
+            <summary>
+            The Cyanuric_acid_label item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Chemical_level_graph">
+            <summary>
+            The Chemical_level_graph item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Chemical_level_graphInfo">
+            <summary>
+            The Chemical_level_graph item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Unbalanced_icon">
+            <summary>
+            The Unbalanced_icon item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.Unbalanced_iconInfo">
+            <summary>
+            The Unbalanced_icon item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.PH_value">
+            <summary>
+            The PH_value item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Water_QualityFolder.PH_valueInfo">
+            <summary>
+            The PH_value item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder">
+            <summary>
+            The Product_OverviewFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Product_Overview  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.SettingScreen">
+            <summary>
+            The SettingScreen item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.SettingScreenInfo">
+            <summary>
+            The SettingScreen item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.ProductOverviewclick">
+            <summary>
+            The ProductOverviewclick item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.ProductOverviewclickInfo">
+            <summary>
+            The ProductOverviewclick item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Product_Overview">
+            <summary>
+            The Product_Overview item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Product_OverviewInfo">
+            <summary>
+            The Product_Overview item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.BackArrow">
+            <summary>
+            The BackArrow item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.BackArrowInfo">
+            <summary>
+            The BackArrow item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Product_Overview_screen">
+            <summary>
+            The Product_Overview_screen item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Product_Overview_screenInfo">
+            <summary>
+            The Product_Overview_screen item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Nickname">
+            <summary>
+            The Nickname item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.NicknameInfo">
+            <summary>
+            The Nickname item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Notifications">
+            <summary>
+            The Notifications item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.NotificationsInfo">
+            <summary>
+            The Notifications item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Notification_screen">
+            <summary>
+            The Notification_screen item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Notification_screenInfo">
+            <summary>
+            The Notification_screen item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.RCTView2">
+            <summary>
+            The RCTView2 item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.RCTView2Info">
+            <summary>
+            The RCTView2 item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Notification_back_arrow">
+            <summary>
+            The Notification_back_arrow item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Notification_back_arrowInfo">
+            <summary>
+            The Notification_back_arrow item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.AssetsSrcCommonFeatureImagesPinLoca">
+            <summary>
+            The AssetsSrcCommonFeatureImagesPinLoca item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.AssetsSrcCommonFeatureImagesPinLocaInfo">
+            <summary>
+            The AssetsSrcCommonFeatureImagesPinLoca item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Contact_Pro_back">
+            <summary>
+            The Contact_Pro_back item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.Contact_Pro_backInfo">
+            <summary>
+            The Contact_Pro_back item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.ContactAProfessional">
+            <summary>
+            The ContactAProfessional item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.ContactAProfessionalInfo">
+            <summary>
+            The ContactAProfessional item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.AddressProfile">
+            <summary>
+            The AddressProfile item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.AddressProfileInfo">
+            <summary>
+            The AddressProfile item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.ProfileBottom">
+            <summary>
+            The ProfileBottom item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.ProfileBottomInfo">
+            <summary>
+            The ProfileBottom item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.HomeButton">
+            <summary>
+            The HomeButton item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Product_OverviewFolder.HomeButtonInfo">
+            <summary>
+            The HomeButton item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.Edit_DashboardFolder">
+            <summary>
+            The Edit_DashboardFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.Edit_DashboardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Edit_Dashboard  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Edit_DashboardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Edit_DashboardFolder.SaveEditDashboard">
+            <summary>
+            The SaveEditDashboard item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Edit_DashboardFolder.SaveEditDashboardInfo">
+            <summary>
+            The SaveEditDashboard item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Edit_DashboardFolder.Without_Chemcheck_Screenshot">
+            <summary>
+            The Without_Chemcheck_Screenshot item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Edit_DashboardFolder.Without_Chemcheck_ScreenshotInfo">
+            <summary>
+            The Without_Chemcheck_Screenshot item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder">
+            <summary>
+            The Pool_AddFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Pool_Add  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Address">
+            <summary>
+            The Address item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.AddressInfo">
+            <summary>
+            The Address item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.SelectPool">
+            <summary>
+            The SelectPool item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.SelectPoolInfo">
+            <summary>
+            The SelectPool item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.ADDANEWPOOL">
+            <summary>
+            The ADDANEWPOOL item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.ADDANEWPOOLInfo">
+            <summary>
+            The ADDANEWPOOL item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Outdoor">
+            <summary>
+            The Outdoor item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.OutdoorInfo">
+            <summary>
+            The Outdoor item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.PoolName">
+            <summary>
+            The PoolName item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.PoolNameInfo">
+            <summary>
+            The PoolName item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Volume">
+            <summary>
+            The Volume item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.VolumeInfo">
+            <summary>
+            The Volume item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.SelectAddress">
+            <summary>
+            The SelectAddress item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.SelectAddressInfo">
+            <summary>
+            The SelectAddress item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.PoolSave">
+            <summary>
+            The PoolSave item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.PoolSaveInfo">
+            <summary>
+            The PoolSave item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Container53diamondcourtBurllingame">
+            <summary>
+            The Container53diamondcourtBurllingame item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Container53diamondcourtBurllingameInfo">
+            <summary>
+            The Container53diamondcourtBurllingame item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.DeletePool">
+            <summary>
+            The DeletePool item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.DeletePoolInfo">
+            <summary>
+            The DeletePool item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.IndoorPool">
+            <summary>
+            The IndoorPool item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.IndoorPoolInfo">
+            <summary>
+            The IndoorPool item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.PoolInfoProfile">
+            <summary>
+            The PoolInfoProfile item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.PoolInfoProfileInfo">
+            <summary>
+            The PoolInfoProfile item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.OutdoorPoolAutomation">
+            <summary>
+            The OutdoorPoolAutomation item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.OutdoorPoolAutomationInfo">
+            <summary>
+            The OutdoorPoolAutomation item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.DeviceAddressUpdated">
+            <summary>
+            The DeviceAddressUpdated item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.DeviceAddressUpdatedInfo">
+            <summary>
+            The DeviceAddressUpdated item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.TextOK">
+            <summary>
+            The TextOK item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.TextOKInfo">
+            <summary>
+            The TextOK item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.HomeIcon_without_red">
+            <summary>
+            The HomeIcon_without_red item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.HomeIcon_without_redInfo">
+            <summary>
+            The HomeIcon_without_red item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.IndoorPool_Automation">
+            <summary>
+            The IndoorPool_Automation item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.IndoorPool_AutomationInfo">
+            <summary>
+            The IndoorPool_Automation item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Test_Pool">
+            <summary>
+            The Test_Pool item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Test_PoolInfo">
+            <summary>
+            The Test_Pool item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Volume_title">
+            <summary>
+            The Volume_title item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Volume_titleInfo">
+            <summary>
+            The Volume_title item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Screenshot_Pool_Add">
+            <summary>
+            The Screenshot_Pool_Add item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Screenshot_Pool_AddInfo">
+            <summary>
+            The Screenshot_Pool_Add item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Label_Pool_volume">
+            <summary>
+            The Label_Pool_volume item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.Pool_AddFolder.Label_Pool_volumeInfo">
+            <summary>
+            The Label_Pool_volume item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.MyTest2RepositoryFolders.CalibrationFolder">
+            <summary>
+            The CalibrationFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Calibration  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Sanitizer_Calibration">
+            <summary>
+            The Sanitizer_Calibration item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Sanitizer_CalibrationInfo">
+            <summary>
+            The Sanitizer_Calibration item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Calibration_Chlorine">
+            <summary>
+            The Calibration_Chlorine item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Calibration_ChlorineInfo">
+            <summary>
+            The Calibration_Chlorine item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Free_chlorine_Label">
+            <summary>
+            The Free_chlorine_Label item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Free_chlorine_LabelInfo">
+            <summary>
+            The Free_chlorine_Label item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Calibrate_button">
+            <summary>
+            The Calibrate_button item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Calibrate_buttonInfo">
+            <summary>
+            The Calibrate_button item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Screen_Shot_Callibration">
+            <summary>
+            The Screen_Shot_Callibration item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Screen_Shot_CallibrationInfo">
+            <summary>
+            The Screen_Shot_Callibration item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Calibration_Ok">
+            <summary>
+            The Calibration_Ok item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.Calibration_OkInfo">
+            <summary>
+            The Calibration_Ok item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.ph_Offset">
+            <summary>
+            The ph_Offset item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.ph_OffsetInfo">
+            <summary>
+            The ph_Offset item info.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.pH_calibration_textbox">
+            <summary>
+            The pH_calibration_textbox item.
+            </summary>
+        </member>
+        <member name="P:MyTest2.MyTest2RepositoryFolders.CalibrationFolder.pH_calibration_textboxInfo">
+            <summary>
+            The pH_calibration_textbox item info.
+            </summary>
+        </member>
+        <member name="T:MyTest2.pHCharts">
+             <summary>
+            The pHCharts recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.pHCharts.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.pHCharts.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.pHCharts.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.pHCharts.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.pHCharts.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.pHCharts.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.pHCharts.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest2.PH_Calibration">
+             <summary>
+            The PH_Calibration recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.PH_Calibration.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.PH_Calibration.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.PH_Calibration.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.PH_Calibration.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.PH_Calibration.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.PH_Calibration.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.PH_Calibration.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.PH_Calibration.DeviceNamevar">
+            <summary>
+            Gets or sets the value of variable DeviceNamevar.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Pool_Add">
+             <summary>
+            The Pool_Add recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Pool_Add.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Pool_Add.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Pool_Add.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Pool_Add.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Pool_Add.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Pool_Add.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Pool_Add.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Pool_Add.DeviceNamevar">
+            <summary>
+            Gets or sets the value of variable DeviceNamevar.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Pool_Device_remove">
+             <summary>
+            The Pool_Device_remove recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Pool_Device_remove.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Pool_Device_remove.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Pool_Device_remove.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Pool_Device_remove.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Pool_Device_remove.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Pool_Device_remove.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Pool_Device_remove.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Recording1.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Sanitizer">
+             <summary>
+            The Sanitizer recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Sanitizer.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Sanitizer.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Sanitizer.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Sanitizer.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Sanitizer.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Sanitizer.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Sanitizer.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Sanitize_Calibration">
+             <summary>
+            The Sanitize_Calibration recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Sanitize_Calibration.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Sanitize_Calibration.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Sanitize_Calibration.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Sanitize_Calibration.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Sanitize_Calibration.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Sanitize_Calibration.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Sanitize_Calibration.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Sanitize_Calibration.DeviceNamevar">
+            <summary>
+            Gets or sets the value of variable DeviceNamevar.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Settings_Product_Overview">
+             <summary>
+            The Settings_Product_Overview recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Settings_Product_Overview.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Settings_Product_Overview.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Settings_Product_Overview.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Settings_Product_Overview.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Settings_Product_Overview.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Settings_Product_Overview.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Settings_Product_Overview.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Settings_Product_Overview.DeviceNamevar">
+            <summary>
+            Gets or sets the value of variable DeviceNamevar.
+            </summary>
+        </member>
+        <member name="T:MyTest2.WaterTemperature">
+             <summary>
+            The WaterTemperature recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.WaterTemperature.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTemperature.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTemperature.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.WaterTemperature.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTemperature.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.WaterTemperature.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTemperature.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyTest2.WaterTestBalancedValues">
+             <summary>
+            The WaterTestBalancedValues recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.WaterTestBalancedValues.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTestBalancedValues.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTestBalancedValues.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.WaterTestBalancedValues.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTestBalancedValues.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.WaterTestBalancedValues.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestBalancedValues.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestBalancedValues.pHBalanced">
+            <summary>
+            Gets or sets the value of variable pHBalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestBalancedValues.ChlorineBalanced">
+            <summary>
+            Gets or sets the value of variable ChlorineBalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestBalancedValues.totalchbalanced">
+            <summary>
+            Gets or sets the value of variable totalchbalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestBalancedValues.TotalAlkabalanced">
+            <summary>
+            Gets or sets the value of variable TotalAlkabalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestBalancedValues.calciumbalanced">
+            <summary>
+            Gets or sets the value of variable calciumbalanced.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestBalancedValues.Cyanuricbalaned">
+            <summary>
+            Gets or sets the value of variable Cyanuricbalaned.
+            </summary>
+        </member>
+        <member name="T:MyTest2.WaterTestusingTeststrip">
+             <summary>
+            The WaterTestusingTeststrip recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.WaterTestusingTeststrip.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTestusingTeststrip.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTestusingTeststrip.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.WaterTestusingTeststrip.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.WaterTestusingTeststrip.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.WaterTestusingTeststrip.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestusingTeststrip.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestusingTeststrip.PHvalue">
+            <summary>
+            Gets or sets the value of variable PHvalue.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestusingTeststrip.Chlorine">
+            <summary>
+            Gets or sets the value of variable Chlorine.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestusingTeststrip.pHagain">
+            <summary>
+            Gets or sets the value of variable pHagain.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestusingTeststrip.TotalChlorine">
+            <summary>
+            Gets or sets the value of variable TotalChlorine.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestusingTeststrip.TotalAlkalinity">
+            <summary>
+            Gets or sets the value of variable TotalAlkalinity.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestusingTeststrip.Calcium">
+            <summary>
+            Gets or sets the value of variable Calcium.
+            </summary>
+        </member>
+        <member name="P:MyTest2.WaterTestusingTeststrip.CyanuricAcid">
+            <summary>
+            Gets or sets the value of variable CyanuricAcid.
+            </summary>
+        </member>
+        <member name="T:MyTest2.Water_Balance_Indoor_Pool">
+             <summary>
+            The Water_Balance_Indoor_Pool recording.
+             </summary>
+        </member>
+        <member name="F:MyTest2.Water_Balance_Indoor_Pool.repo">
+            <summary>
+            Holds an instance of the MyTest2Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Water_Balance_Indoor_Pool.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Water_Balance_Indoor_Pool.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTest2.Water_Balance_Indoor_Pool.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTest2.Water_Balance_Indoor_Pool.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTest2.Water_Balance_Indoor_Pool.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Water_Balance_Indoor_Pool.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTest2.Water_Balance_Indoor_Pool.DeviceNamevar">
+            <summary>
+            Gets or sets the value of variable DeviceNamevar.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

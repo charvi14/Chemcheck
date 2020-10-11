@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="56.93s"
+		durationms="56928"
+		type="root"
+		rid="2a68673f70bd843b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-09-2020 20:39:59"
+		timestampiso="2020-09-17T15:09:59"
+		endtime="17-09-2020 20:40:56"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="WaterTestusingTeststrip">
+		<detail>
+			WaterTestusingTeststrip
+		</detail>
+		<errormessage>
+			Setting attribute 'Text' failed on element '{Text:Invalid Input}'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.773"
+			timeRelativeToTestModuleStartTime="00:04.773"
+			timeWallClock="20:40:04"
+			time="00:04.773"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>PHvalue, Chlorine, pHagain
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.800"
+			timeRelativeToTestModuleStartTime="00:04.800"
+			timeWallClock="20:40:04"
+			time="00:04.800"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.WaterQuality' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+				id="6fc992b5a39e41e1a5fa498ef745629c"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="121"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.977"
+			timeRelativeToTestModuleStartTime="00:17.977"
+			timeWallClock="20:40:17"
+			time="00:17.977"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.TESTSTRIP' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='TEST STRIP']"
+				itempath=".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='TEST STRIP']"
+				fullname="MyTest2Repository.ComPentairPentairhome.TESTSTRIP"
+				id="8c239de6b12a461daf5b9dff939b82fe"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="125"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.388"
+			timeRelativeToTestModuleStartTime="00:28.388"
+			timeWallClock="20:40:28"
+			time="00:28.388"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="129"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.397"
+			timeRelativeToTestModuleStartTime="00:30.397"
+			timeWallClock="20:40:30"
+			time="00:30.397"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '$PHvalue' on item 'Water_Quality.RCTUITextField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+				fullname="MyTest2Repository.Water_Quality.RCTUITextField"
+				id="5af5448ffc384691a36dac2ec0e533bc"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="132"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.717"
+			timeRelativeToTestModuleStartTime="00:32.717"
+			timeWallClock="20:40:32"
+			time="00:32.717"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Water_Quality.Chlorine' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+				fullname="MyTest2Repository.Water_Quality.Chlorine"
+				id="599a021aecb24c26b3d66c8a30604a4d"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="136"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.213"
+			timeRelativeToTestModuleStartTime="00:47.213"
+			timeWallClock="20:40:47"
+			time="00:47.213"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Visible='True') on item 'Water_Quality.TheValidRangeForPHIs59'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='The valid range for pH is 5-9']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='The valid range for pH is 5-9']"
+				fullname="MyTest2Repository.Water_Quality.TheValidRangeForPHIs59"
+				id="01afd0d4999d463e96a5a86a68c8ced7"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="140"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.276"
+			timeRelativeToTestModuleStartTime="00:48.276"
+			timeWallClock="20:40:48"
+			time="00:48.276"
+			level="Success"
+			category="Validation"
+			errimg="images_WaterTes_5f32035d\WaterTes_5f32035d_0a15158d_trace.jpg"
+			errthumb="images_WaterTes_5f32035d\WaterTes_5f32035d_0a15158d_trace_thumb.jpg">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest2Repository.Water_Quality.TheValidRangeForPHIs59' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='The valid range for pH is 5-9']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='The valid range for pH is 5-9']"
+				fullname="MyTest2Repository.Water_Quality.TheValidRangeForPHIs59"
+				id="01afd0d4999d463e96a5a86a68c8ced7"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="141"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.277"
+			timeRelativeToTestModuleStartTime="00:48.277"
+			timeWallClock="20:40:48"
+			time="00:48.277"
+			level="Info"
+			category="Touch"
+			errimg="images_WaterTes_5f32035d\WaterTes_5f32035d_0a15158d_trace.jpg"
+			errthumb="images_WaterTes_5f32035d\WaterTes_5f32035d_0a15158d_trace_thumb.jpg">
+			<message>
+				Touch item 'Water_Quality.TextOK' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='OK']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='OK']"
+				fullname="MyTest2Repository.Water_Quality.TextOK"
+				id="7accb2862d3541598ead215927c3c253"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="144"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.670"
+			timeRelativeToTestModuleStartTime="00:55.670"
+			timeWallClock="20:40:55"
+			time="00:55.670"
+			level="Info"
+			category="Set value"
+			errimg="images_WaterTes_5f32035d\WaterTes_5f32035d_d76ac833_trace.jpg"
+			errthumb="images_WaterTes_5f32035d\WaterTes_5f32035d_d76ac833_trace_thumb.jpg">
+			<message>
+				Setting attribute Text to '(null)' on item 'RCTUITextField1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+				fullname="MyTest2Repository.RCTUITextField1"
+				id="cfdd707cf10f42bcb406a80ef799f623"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="148"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:56.795"
+			timeRelativeToTestModuleStartTime="00:56.795"
+			timeWallClock="20:40:56"
+			time="00:56.795"
+			level="Error"
+			category="Module"
+			errimg="images_WaterTes_5f32035d\WaterTes_5f32035d_92ed8a16_trace.jpg"
+			errthumb="images_WaterTes_5f32035d\WaterTes_5f32035d_92ed8a16_trace_thumb.jpg">
+			<message>
+				Setting attribute 'Text' failed on element '{Text:Invalid Input}'.<br/>Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Element.SetAttributeValue(String name, Object value)
+   at Ranorex.Core.Element.SetAttributeValue(String name, String value)
+   at MyTest2.WaterTestusingTeststrip.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs:line 149
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+				codeline="149"
+				loglvl="Error"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

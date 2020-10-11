@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.7m"
+		durationms="104233"
+		type="root"
+		rid="1585ab457da628a0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="30-09-2020 19:06:58"
+		timestampiso="2020-09-30T13:36:58"
+		endtime="30-09-2020 19:08:43"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Indoor_Unbalanced_Water_Quality">
+		<detail>
+			Indoor_Unbalanced_Water_Quality
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.583"
+			timeRelativeToTestModuleStartTime="00:04.583"
+			timeWallClock="19:07:03"
+			time="00:04.583"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>PHvalue, pHagain, Chlorine, TotalChlorine, TotalAlkalinity, Calcium
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.611"
+			timeRelativeToTestModuleStartTime="00:04.611"
+			timeWallClock="19:07:03"
+			time="00:04.611"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Water_Quality.Hourly_water_history' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Hourly']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Hourly']"
+				fullname="MyTest2Repository.Water_Quality.Hourly_water_history"
+				id="a2c101077fc74bdba6b91bcb1f55fcf4"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="160"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.255"
+			timeRelativeToTestModuleStartTime="00:26.255"
+			timeWallClock="19:07:25"
+			time="00:26.255"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="32"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="164"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.429"
+			timeRelativeToTestModuleStartTime="00:32.429"
+			timeWallClock="19:07:31"
+			time="00:32.429"
+			level="Info"
+			category="User"
+			errimg="images_Indoor_U_e577933d\Indoor_U_360eedcf_rxlog.jpg"
+			errthumb="images_Indoor_U_e577933d\Indoor_U_360eedcf_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="33"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="167"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.430"
+			timeRelativeToTestModuleStartTime="00:32.430"
+			timeWallClock="19:07:31"
+			time="00:32.430"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '250' with swipe duration'800ms' and step count '0' on item 'Water_Quality.Free_chlorine_label'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine Level']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine Level']"
+				fullname="MyTest2Repository.Water_Quality.Free_chlorine_label"
+				id="b7b8b4c1ebd54305bd7175b12b319eeb"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="169"
+				itemindex="34"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.325"
+			timeRelativeToTestModuleStartTime="00:55.325"
+			timeWallClock="19:07:54"
+			time="00:55.325"
+			level="Info"
+			category="User"
+			errimg="images_Indoor_U_e577933d\Indoor_U_360eedd0_rxlog.jpg"
+			errthumb="images_Indoor_U_e577933d\Indoor_U_360eedd0_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="35"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="173"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.325"
+			timeRelativeToTestModuleStartTime="00:55.325"
+			timeWallClock="19:07:54"
+			time="00:55.325"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '100' with swipe duration'500ms' and step count '0' on item 'Water_Quality.PH_Level_label'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH Level']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH Level']"
+				fullname="MyTest2Repository.Water_Quality.PH_Level_label"
+				id="f2311445073e4312be33936d72fc225d"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="175"
+				itemindex="36"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:16.286"
+			timeRelativeToTestModuleStartTime="01:16.286"
+			timeWallClock="19:08:15"
+			time="01:16.286"
+			level="Info"
+			category="User"
+			errimg="images_Indoor_U_e577933d\Indoor_U_360eedcd_rxlog.jpg"
+			errthumb="images_Indoor_U_e577933d\Indoor_U_360eedcd_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="37"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="179"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:16.287"
+			timeRelativeToTestModuleStartTime="01:16.287"
+			timeWallClock="19:08:15"
+			time="01:16.287"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '100' with swipe duration'500ms' and step count '0' on item 'Water_Quality.Alkanity_Level_Label'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Alkanity Level']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Alkanity Level']"
+				fullname="MyTest2Repository.Water_Quality.Alkanity_Level_Label"
+				id="23f1f5e663e64b0681571e48f34510a2"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="181"
+				itemindex="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:37.341"
+			timeRelativeToTestModuleStartTime="01:37.341"
+			timeWallClock="19:08:36"
+			time="01:37.341"
+			level="Info"
+			category="User"
+			errimg="images_Indoor_U_e577933d\Indoor_U_360eedce_rxlog.jpg"
+			errthumb="images_Indoor_U_e577933d\Indoor_U_360eedce_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="39"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="185"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:37.341"
+			timeRelativeToTestModuleStartTime="01:37.341"
+			timeWallClock="19:08:36"
+			time="01:37.341"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '100' with swipe duration'500ms' and step count '0' on item 'Water_Quality.Cyanuric_acid_label'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Cyanuric Acid Level']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Cyanuric Acid Level']"
+				fullname="MyTest2Repository.Water_Quality.Cyanuric_acid_label"
+				id="cd68468cfdd643ecaeb32d81a8a17a96"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="187"
+				itemindex="40"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:44.234"
+			timeRelativeToTestModuleStartTime="01:44.234"
+			timeWallClock="19:08:43"
+			time="01:44.234"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

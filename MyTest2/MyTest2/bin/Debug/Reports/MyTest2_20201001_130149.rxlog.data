@@ -1,0 +1,1118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="7.2m"
+		durationms="433126"
+		type="root"
+		rid="26bcd520bf3665a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="01-10-2020 13:01:49"
+		timestampiso="2020-10-01T07:31:49"
+		endtime="01-10-2020 13:09:02"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="7.2m"
+			durationms="429409"
+			type="test-suite"
+			rid="af287ce74d86c1f"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest2"
+			headertext="MyTest2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="7.2m"
+				durationms="429377"
+				type="iteration-container"
+				rid="2e47286d063a5c94"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="Verfy_Water_Quality_using_Test_Strip"
+				headertext="Verfy_Water_Quality_using_Test_Strip"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="baba5f6d-87cb-4e57-8ec2-eb01409a9a14"
+				datasource="NewConnector1"
+				dataiterationcount="1">
+				<activity
+					result="Failed"
+					duration="7.2m"
+					durationms="429368"
+					type="test-case"
+					rid="41ddbf2cef66c06"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="1"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="1"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="1"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Verfy_Water_Quality_using_Test_Strip"
+					testcontainerid="baba5f6d-87cb-4e57-8ec2-eb01409a9a14"
+					headertext="Verfy_Water_Quality_using_Test_Strip"
+					displayName="Verfy_Water_Quality_using_Test_Strip"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="pH">
+							11
+						</field>
+						<field
+							name="pHagain">
+							6
+						</field>
+						<field
+							name="freeChlorine">
+							5
+						</field>
+						<field
+							name="totalchlorine">
+							6
+						</field>
+						<field
+							name="totalAlk">
+							90
+						</field>
+						<field
+							name=" CalciumHardness">
+							300
+						</field>
+						<field
+							name="CyanuricAcid">
+							40
+						</field>
+					</datarow>
+					<activity
+						result="Failed"
+						duration="7.2m"
+						durationms="429324"
+						type="test-module"
+						rid="1d5b53e66cbbcf97"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="WaterTestusingTeststrip"
+						displayName="WaterTestusingTeststrip"
+						moduleid="cc01358f-131d-4461-9ef3-541db70e5bf6"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Failed to find item 'MyTest2Repository.ComPentairPentairhome.DeviceName'.
+						</errormessage>
+						<varbindings>
+							<varbinding
+								name="PHvalue"
+								value="11">
+							</varbinding>
+							<varbinding
+								name="Chlorine"
+								value="5">
+							</varbinding>
+							<varbinding
+								name="pHagain"
+								value="6">
+							</varbinding>
+							<varbinding
+								name="TotalChlorine"
+								value="6">
+							</varbinding>
+							<varbinding
+								name="TotalAlkalinity"
+								value="90">
+							</varbinding>
+							<varbinding
+								name="Calcium"
+								value="300">
+							</varbinding>
+							<varbinding
+								name="CyanuricAcid"
+								value="40">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.087"
+							timeRelativeToTestModuleStartTime="00:00.010"
+							timeWallClock="13:01:53"
+							time="00:00.087"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$PHvalue = '11', $Chlorine = '5', $pHagain = '6', $TotalChlorine = '6', $TotalAlkalinity = '90', $Calcium = '300', $CyanuricAcid = '40'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.154"
+							timeRelativeToTestModuleStartTime="00:00.077"
+							timeWallClock="13:01:53"
+							time="00:00.154"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>DeviceNamevar
+							</message>
+							<metainfo
+								loglvl="Warn">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.208"
+							timeRelativeToTestModuleStartTime="00:00.131"
+							timeWallClock="13:01:53"
+							time="00:00.208"
+							level="Info"
+							category="Touch gestures">
+							<message>
+								Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '100' with swipe duration'800ms' and step count '0' on item 'ComPentairPentairhome.Sanitizer'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+								itempath=".//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+								fullname="MyTest2Repository.ComPentairPentairhome.Sanitizer"
+								id="38eaa5f44cac48fe8bb75781ecd2348f"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="183"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:21.760"
+							timeRelativeToTestModuleStartTime="00:21.683"
+							timeWallClock="13:02:15"
+							time="00:21.760"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.WaterQuality' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+								itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+								fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+								id="6fc992b5a39e41e1a5fa498ef745629c"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="187"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.064"
+							timeRelativeToTestModuleStartTime="00:39.987"
+							timeWallClock="13:02:33"
+							time="00:40.064"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.TESTSTRIP' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='TEST STRIP']"
+								itempath=".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='TEST STRIP']"
+								fullname="MyTest2Repository.ComPentairPentairhome.TESTSTRIP"
+								id="8c239de6b12a461daf5b9dff939b82fe"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="191"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:56.704"
+							timeRelativeToTestModuleStartTime="00:56.627"
+							timeWallClock="13:02:50"
+							time="00:56.704"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="195"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:58.812"
+							timeRelativeToTestModuleStartTime="00:58.735"
+							timeWallClock="13:02:52"
+							time="00:58.812"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$PHvalue' on item 'Water_Quality.RCTUITextField'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+								fullname="MyTest2Repository.Water_Quality.RCTUITextField"
+								id="5af5448ffc384691a36dac2ec0e533bc"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="198"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:02.561"
+							timeRelativeToTestModuleStartTime="01:02.484"
+							timeWallClock="13:02:56"
+							time="01:02.561"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.Chlorine' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.Chlorine"
+								id="599a021aecb24c26b3d66c8a30604a4d"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="202"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:24.389"
+							timeRelativeToTestModuleStartTime="01:24.313"
+							timeWallClock="13:03:17"
+							time="01:24.389"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Visible='True') on item 'Water_Quality.TheValidRangeForPHIs59'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='The valid range for pH is 5-9']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='The valid range for pH is 5-9']"
+								fullname="MyTest2Repository.Water_Quality.TheValidRangeForPHIs59"
+								id="01afd0d4999d463e96a5a86a68c8ced7"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="206"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:26.434"
+							timeRelativeToTestModuleStartTime="01:26.357"
+							timeWallClock="13:03:19"
+							time="01:26.434"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'MyTest2Repository.Water_Quality.TheValidRangeForPHIs59' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='The valid range for pH is 5-9']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='The valid range for pH is 5-9']"
+								fullname="MyTest2Repository.Water_Quality.TheValidRangeForPHIs59"
+								id="01afd0d4999d463e96a5a86a68c8ced7"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="207"
+								loglvl="Success"
+								itemindex="6">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:26.595"
+							timeRelativeToTestModuleStartTime="01:26.518"
+							timeWallClock="13:03:20"
+							time="01:26.595"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.TextOK' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='OK']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='OK']"
+								fullname="MyTest2Repository.Water_Quality.TextOK"
+								id="7accb2862d3541598ead215927c3c253"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="210"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:40.650"
+							timeRelativeToTestModuleStartTime="01:40.573"
+							timeWallClock="13:03:34"
+							time="01:40.650"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="8"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="214"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:42.728"
+							timeRelativeToTestModuleStartTime="01:42.651"
+							timeWallClock="13:03:36"
+							time="01:42.728"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '' on item 'Water_Quality.RCTUITextField'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+								fullname="MyTest2Repository.Water_Quality.RCTUITextField"
+								id="5af5448ffc384691a36dac2ec0e533bc"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="217"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.250"
+							timeRelativeToTestModuleStartTime="01:46.173"
+							timeWallClock="13:03:39"
+							time="01:46.250"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$pHagain' on item 'Water_Quality.RCTUITextField1'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+								fullname="MyTest2Repository.Water_Quality.RCTUITextField1"
+								id="cfdd707cf10f42bcb406a80ef799f623"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="221"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:49.773"
+							timeRelativeToTestModuleStartTime="01:49.696"
+							timeWallClock="13:03:43"
+							time="01:49.773"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$Chlorine' on item 'Water_Quality.Chlorine'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.Chlorine"
+								id="599a021aecb24c26b3d66c8a30604a4d"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="225"
+								itemindex="11"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:53.406"
+							timeRelativeToTestModuleStartTime="01:53.329"
+							timeWallClock="13:03:46"
+							time="01:53.406"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$TotalChlorine' on item 'Water_Quality.TotalChlorine'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Chlorine   ']/container[@accessibilitylabel='Total Chlorine   ']/container[@accessibilitylabel='Total Chlorine   ']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Chlorine   ']/container[@accessibilitylabel='Total Chlorine   ']/container[@accessibilitylabel='Total Chlorine   ']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.TotalChlorine"
+								id="e868bad5709442b89ba7867d385af45f"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="229"
+								itemindex="12"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:57.119"
+							timeRelativeToTestModuleStartTime="01:57.042"
+							timeWallClock="13:03:50"
+							time="01:57.119"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$TotalAlkalinity' on item 'Water_Quality.TotalAlkalinity'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.TotalAlkalinity"
+								id="fa33e5476253492cbbf35903264126ff"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="233"
+								itemindex="13"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:00.785"
+							timeRelativeToTestModuleStartTime="02:00.708"
+							timeWallClock="13:03:54"
+							time="02:00.785"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$Calcium' on item 'Water_Quality.Calcium'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.Calcium"
+								id="c46d369bc7764d95a6d4198fd327ce17"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="237"
+								itemindex="14"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:04.481"
+							timeRelativeToTestModuleStartTime="02:04.404"
+							timeWallClock="13:03:57"
+							time="02:04.481"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$CyanuricAcid' on item 'Water_Quality.CyanuricAcid'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Cyanuric Acid  Ideal 30 to 60']/container[@accessibilitylabel='Cyanuric Acid  Ideal 30 to 60']/container[@accessibilitylabel='Cyanuric Acid  Ideal 30 to 60']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Cyanuric Acid  Ideal 30 to 60']/container[@accessibilitylabel='Cyanuric Acid  Ideal 30 to 60']/container[@accessibilitylabel='Cyanuric Acid  Ideal 30 to 60']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.CyanuricAcid"
+								id="bc2071cf00da4469bb54c630f5945a60"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="241"
+								itemindex="15"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:08.164"
+							timeRelativeToTestModuleStartTime="02:08.088"
+							timeWallClock="13:04:01"
+							time="02:08.164"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.TotalAlkalinitylabel' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Alkalinity ']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Alkalinity ']"
+								fullname="MyTest2Repository.Water_Quality.TotalAlkalinitylabel"
+								id="3c327a0c03c5405d90f211a7e3951e43"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="245"
+								itemindex="16"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:29.801"
+							timeRelativeToTestModuleStartTime="02:29.724"
+							timeWallClock="13:04:23"
+							time="02:29.801"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.Save' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']"
+								fullname="MyTest2Repository.Water_Quality.Save"
+								id="7d3be135328d4364a3618de6371232e1"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="249"
+								itemindex="17"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:47.021"
+							timeRelativeToTestModuleStartTime="02:46.944"
+							timeWallClock="13:04:40"
+							time="02:47.021"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="18"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="253"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:49.080"
+							timeRelativeToTestModuleStartTime="02:49.003"
+							timeWallClock="13:04:42"
+							time="02:49.080"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.CONTINUE' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']"
+								fullname="MyTest2Repository.Water_Quality.CONTINUE"
+								id="1d004bd326ab4fd7a5bef53d6bf97859"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="256"
+								itemindex="19"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:08.221"
+							timeRelativeToTestModuleStartTime="03:08.144"
+							timeWallClock="13:05:01"
+							time="03:08.221"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="20"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="260"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:13.477"
+							timeRelativeToTestModuleStartTime="03:13.401"
+							timeWallClock="13:05:06"
+							time="03:13.477"
+							level="Info"
+							category="User"
+							errimg="images_MyTest2__5039fc61\MyTest2__79299613_rxlog.jpg"
+							errthumb="images_MyTest2__5039fc61\MyTest2__79299613_rxlog_thumb.jpg">
+							<message>
+								
+							</message>
+							<metainfo
+								itemindex="21"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="263"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:13.479"
+							timeRelativeToTestModuleStartTime="03:13.403"
+							timeWallClock="13:05:06"
+							time="03:13.479"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.SodiumCarbonate' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sodium Carbonate']/container[@accessibilitylabel='Sodium Carbonate']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sodium Carbonate']/container[@accessibilitylabel='Sodium Carbonate']"
+								fullname="MyTest2Repository.Water_Quality.SodiumCarbonate"
+								id="9566ecdfb29c4101963cef88155c7f2f"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="265"
+								itemindex="22"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="03:42.726"
+							timeRelativeToTestModuleStartTime="03:42.649"
+							timeWallClock="13:05:36"
+							time="03:42.726"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.RecommendCONTINUE' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Recommended Dosage Based on the results you''ve provided, it looks like your water is Imbalanced. Make the following adjustments to your pool. To Increase PH , choose one chemical to add below: Add 1 of these chemicals Sodium Carbonate CONTINUE']/container[@accessibilitylabel='CONTINUE']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Recommended Dosage Based on the results you''ve provided, it looks like your water is Imbalanced. Make the following adjustments to your pool. To Increase PH , choose one chemical to add below: Add 1 of these chemicals Sodium Carbonate CONTINUE']/container[@accessibilitylabel='CONTINUE']"
+								fullname="MyTest2Repository.Water_Quality.RecommendCONTINUE"
+								id="60d50816d58c45edbe968919b4e55ad0"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="269"
+								itemindex="23"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:01.914"
+							timeRelativeToTestModuleStartTime="04:01.838"
+							timeWallClock="13:05:55"
+							time="04:01.914"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Visible='True') on item 'Water_Quality.RecommendedDosage'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Recommended Dosage']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Recommended Dosage']"
+								fullname="MyTest2Repository.Water_Quality.RecommendedDosage"
+								id="0305595fff404f3abeb3690942759a18"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="273"
+								itemindex="24"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:04.288"
+							timeRelativeToTestModuleStartTime="04:04.211"
+							timeWallClock="13:05:57"
+							time="04:04.288"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Visible' of element for item 'MyTest2Repository.Water_Quality.RecommendedDosage' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Recommended Dosage']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Recommended Dosage']"
+								fullname="MyTest2Repository.Water_Quality.RecommendedDosage"
+								id="0305595fff404f3abeb3690942759a18"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="274"
+								loglvl="Success"
+								itemindex="24">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:04.459"
+							timeRelativeToTestModuleStartTime="04:04.382"
+							timeWallClock="13:05:57"
+							time="04:04.459"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.Save' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']"
+								fullname="MyTest2Repository.Water_Quality.Save"
+								id="7d3be135328d4364a3618de6371232e1"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="277"
+								itemindex="25"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:23.218"
+							timeRelativeToTestModuleStartTime="04:23.141"
+							timeWallClock="13:06:16"
+							time="04:23.218"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 3s.
+							</message>
+							<metainfo
+								itemindex="26"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="281"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:26.294"
+							timeRelativeToTestModuleStartTime="04:26.217"
+							timeWallClock="13:06:19"
+							time="04:26.294"
+							level="Info"
+							category="Touch gestures">
+							<message>
+								Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '100' with swipe duration'800ms' and step count '0' on item 'ComPentairPentairhome.Sanitizer'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+								itempath=".//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+								fullname="MyTest2Repository.ComPentairPentairhome.Sanitizer"
+								id="38eaa5f44cac48fe8bb75781ecd2348f"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="284"
+								itemindex="27"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="04:46.543"
+							timeRelativeToTestModuleStartTime="04:46.466"
+							timeWallClock="13:06:40"
+							time="04:46.543"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.WaterQuality' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+								itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+								fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+								id="6fc992b5a39e41e1a5fa498ef745629c"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="288"
+								itemindex="28"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:04.899"
+							timeRelativeToTestModuleStartTime="05:04.823"
+							timeWallClock="13:06:58"
+							time="05:04.899"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.View_Test_history' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='VIEW TEST HISTORY']/container[@accessibilitylabel='VIEW TEST HISTORY']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='VIEW TEST HISTORY']/container[@accessibilitylabel='VIEW TEST HISTORY']"
+								fullname="MyTest2Repository.Water_Quality.View_Test_history"
+								id="b375b07ba6b4453baae35cb81da27322"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="292"
+								itemindex="29"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:20.904"
+							timeRelativeToTestModuleStartTime="05:20.827"
+							timeWallClock="13:07:14"
+							time="05:20.904"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 5s.
+							</message>
+							<metainfo
+								itemindex="30"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="296"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:25.984"
+							timeRelativeToTestModuleStartTime="05:25.907"
+							timeWallClock="13:07:19"
+							time="05:25.984"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.Unbalanced_icon' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/high@2x.png']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/high@2x.png']"
+								fullname="MyTest2Repository.Water_Quality.Unbalanced_icon"
+								id="aca5786e38194529bd9ce398e1f86741"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="299"
+								itemindex="31"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:49.126"
+							timeRelativeToTestModuleStartTime="05:49.049"
+							timeWallClock="13:07:42"
+							time="05:49.126"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (AccessibilityLabel=$pHagain) on item 'Water_Quality.PH_value'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']"
+								fullname="MyTest2Repository.Water_Quality.PH_value"
+								id="675915855a414506ae0b1b2eaae14c3c"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="303"
+								itemindex="32"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:51.355"
+							timeRelativeToTestModuleStartTime="05:51.278"
+							timeWallClock="13:07:44"
+							time="05:51.355"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.Water_Quality.PH_value' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='6']"
+								fullname="MyTest2Repository.Water_Quality.PH_value"
+								id="675915855a414506ae0b1b2eaae14c3c"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="304"
+								loglvl="Success"
+								itemindex="32">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="05:51.500"
+							timeRelativeToTestModuleStartTime="05:51.423"
+							timeWallClock="13:07:45"
+							time="05:51.500"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Pool_Add.HomeIcon_without_red' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/npHome1898142000000@2x.png']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/npHome1898142000000@2x.png']"
+								fullname="MyTest2Repository.Pool_Add.HomeIcon_without_red"
+								id="d08d9b4c7ade4423858026b50b1a9dea"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="307"
+								itemindex="33"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="06:06.385"
+							timeRelativeToTestModuleStartTime="06:06.308"
+							timeWallClock="13:07:59"
+							time="06:06.385"
+							level="Info"
+							category="Delay"
+							errimg="images_MyTest2__5039fc61\MyTest2__5039fc61_dd37d26d_trace.jpg"
+							errthumb="images_MyTest2__5039fc61\MyTest2__5039fc61_dd37d26d_trace_thumb.jpg">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="34"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="311"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="06:08.477"
+							timeRelativeToTestModuleStartTime="06:08.400"
+							timeWallClock="13:08:01"
+							time="06:08.477"
+							level="Info"
+							category="Touch"
+							errimg="images_MyTest2__5039fc61\MyTest2__5039fc61_80dbd741_trace.jpg"
+							errthumb="images_MyTest2__5039fc61\MyTest2__5039fc61_80dbd741_trace_thumb.jpg">
+							<message>
+								Touch item 'ComPentairPentairhome.DeviceName' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='chemcheck150A1']"
+								itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel=$DeviceNamevar]"
+								fullname="MyTest2Repository.ComPentairPentairhome.DeviceName"
+								id="102b50d466a94255b9d3ac91568f6685"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="314"
+								itemindex="35"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="07:08.907"
+							timeRelativeToTestModuleStartTime="07:08.830"
+							timeWallClock="13:09:02"
+							time="07:08.907"
+							level="Error"
+							category="Module"
+							errimg="images_MyTest2__5039fc61\MyTest2__5039fc61_2f5cd99c_trace.jpg"
+							errthumb="images_MyTest2__5039fc61\MyTest2__5039fc61_2f5cd99c_trace_thumb.jpg">
+							<message>
+								Failed to find item 'MyTest2Repository.ComPentairPentairhome.DeviceName'.<br/>No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='chemcheck150A1']' at step 'descendant-or-self::container[@accessibilityid='deviceName' and @accessibilitylabel='chemcheck150A1']' after 222 attempts within 1m.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at MyTest2.MyTest2RepositoryFolders.ComPentairPentairhomeAppFolder.get_DeviceName() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\MyTest2Repository.cs:line 510&#13;&#10;   at MyTest2.WaterTestusingTeststrip.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs:line 315&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\WaterTestusingTeststrip.cs"
+								codeline="315"
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='deviceName' and @accessibilitylabel='chemcheck150A1']"
+								itempath=".//container[@accessibilityid='deviceName' and @accessibilitylabel=$DeviceNamevar]"
+								fullname="MyTest2Repository.ComPentairPentairhome.DeviceName"
+								id="102b50d466a94255b9d3ac91568f6685"
+								timeout="60000"
+								failedStep="descendant-or-self::container[@accessibilityid='deviceName' and @accessibilitylabel=$DeviceNamevar]"
+								bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+								loglvl="Error"
+								itemindex="35">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.3m"
+		durationms="75459"
+		type="root"
+		rid="101723e4e9929b60"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="15-09-2020 15:54:38"
+		timestampiso="2020-09-15T10:24:38"
+		endtime="15-09-2020 15:55:54"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Sanitizer">
+		<detail>
+			Sanitizer
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.567"
+			timeRelativeToTestModuleStartTime="00:05.567"
+			timeWallClock="15:54:44"
+			time="00:05.567"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Sanitizer' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				itempath=".//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Sanitizer"
+				id="38eaa5f44cac48fe8bb75781ecd2348f"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.141"
+			timeRelativeToTestModuleStartTime="00:19.141"
+			timeWallClock="15:54:57"
+			time="00:19.141"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.710"
+			timeRelativeToTestModuleStartTime="00:22.710"
+			timeWallClock="15:55:01"
+			time="00:22.710"
+			level="Info"
+			category="User"
+			errimg="images_Sanitize_d8f1cc93\Sanitize_77092a9f_rxlog.jpg"
+			errthumb="images_Sanitize_d8f1cc93\Sanitize_77092a9f_rxlog_thumb.jpg">
+			<message>
+				Hourly Basis Sanitizer<br/>
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.711"
+			timeRelativeToTestModuleStartTime="00:22.711"
+			timeWallClock="15:55:01"
+			time="00:22.711"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Daily' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']"
+				itempath=".//container[@accessibilitylabel='Daily']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Daily"
+				id="53e44fad94fa4b5ca98c6461388a6421"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.390"
+			timeRelativeToTestModuleStartTime="00:33.390"
+			timeWallClock="15:55:11"
+			time="00:33.390"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.888"
+			timeRelativeToTestModuleStartTime="00:36.888"
+			timeWallClock="15:55:15"
+			time="00:36.888"
+			level="Info"
+			category="User"
+			errimg="images_Sanitize_d8f1cc93\Sanitize_19b09f3a_rxlog.jpg"
+			errthumb="images_Sanitize_d8f1cc93\Sanitize_19b09f3a_rxlog_thumb.jpg">
+			<message>
+				Daily Basis<br/>
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.889"
+			timeRelativeToTestModuleStartTime="00:36.889"
+			timeWallClock="15:55:15"
+			time="00:36.889"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Weekly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']"
+				itempath=".//container[@accessibilitylabel='Weekly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Weekly"
+				id="c0377e66dbe84f8aaecb161c5dfa7791"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="100"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.516"
+			timeRelativeToTestModuleStartTime="00:47.516"
+			timeWallClock="15:55:26"
+			time="00:47.516"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.032"
+			timeRelativeToTestModuleStartTime="00:51.032"
+			timeWallClock="15:55:29"
+			time="00:51.032"
+			level="Info"
+			category="User"
+			errimg="images_Sanitize_d8f1cc93\Sanitize_bc5813d5_rxlog.jpg"
+			errthumb="images_Sanitize_d8f1cc93\Sanitize_bc5813d5_rxlog_thumb.jpg">
+			<message>
+				Weekly Basis<br/>
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="107"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:51.032"
+			timeRelativeToTestModuleStartTime="00:51.032"
+			timeWallClock="15:55:29"
+			time="00:51.032"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Monthly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']"
+				itempath=".//container[@accessibilitylabel='Monthly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Monthly"
+				id="0079c8cb41cd494ea5aafa5ecde64f0d"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="109"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.711"
+			timeRelativeToTestModuleStartTime="01:01.711"
+			timeWallClock="15:55:40"
+			time="01:01.711"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.277"
+			timeRelativeToTestModuleStartTime="01:05.277"
+			timeWallClock="15:55:43"
+			time="01:05.277"
+			level="Info"
+			category="User"
+			errimg="images_Sanitize_d8f1cc93\Sanitize_5eff8870_rxlog.jpg"
+			errthumb="images_Sanitize_d8f1cc93\Sanitize_5eff8870_rxlog_thumb.jpg">
+			<message>
+				Monthly Basis<br/>
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.278"
+			timeRelativeToTestModuleStartTime="01:05.278"
+			timeWallClock="15:55:43"
+			time="01:05.278"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.RCTView1' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='Sanitizer Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='Sanitizer Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[1]/container[@caption='']/container[@caption='']/container[1]/container[@caption='']"
+				itempath=".//container[@accessibilitylabel='Sanitizer Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='Sanitizer Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='Sanitizer Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[1]/container[@caption='']/container[@caption='']/container[1]/container[@caption='']"
+				fullname="MyTest2Repository.ComPentairPentairhome.RCTView1"
+				id="ac6dc09deac2430390fef19138140877"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="118"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

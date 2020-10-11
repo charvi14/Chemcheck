@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="42.54s"
+		durationms="42535"
+		type="root"
+		rid="f4e808e369571d0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-09-2020 21:33:33"
+		timestampiso="2020-09-17T16:03:33"
+		endtime="17-09-2020 21:34:16"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.137"
+			timeRelativeToTestModuleStartTime="00:09.137"
+			timeWallClock="21:33:42"
+			time="00:09.137"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '11' on item 'RCTUITextField1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+				fullname="MyTest2Repository.RCTUITextField1"
+				id="cfdd707cf10f42bcb406a80ef799f623"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.082"
+			timeRelativeToTestModuleStartTime="00:14.082"
+			timeWallClock="21:33:47"
+			time="00:14.082"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Water_Quality.Chlorine' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+				fullname="MyTest2Repository.Water_Quality.Chlorine"
+				id="599a021aecb24c26b3d66c8a30604a4d"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.793"
+			timeRelativeToTestModuleStartTime="00:28.793"
+			timeWallClock="21:34:02"
+			time="00:28.793"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.802"
+			timeRelativeToTestModuleStartTime="00:30.802"
+			timeWallClock="21:34:04"
+			time="00:30.802"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Water_Quality.TextOK' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='OK']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='OK']"
+				fullname="MyTest2Repository.Water_Quality.TextOK"
+				id="7accb2862d3541598ead215927c3c253"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.403"
+			timeRelativeToTestModuleStartTime="00:38.403"
+			timeWallClock="21:34:12"
+			time="00:38.403"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="97"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.403"
+			timeRelativeToTestModuleStartTime="00:40.403"
+			timeWallClock="21:34:14"
+			time="00:40.403"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '' on item 'Water_Quality.RCTUITextField'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+				fullname="MyTest2Repository.Water_Quality.RCTUITextField"
+				id="5af5448ffc384691a36dac2ec0e533bc"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Recording2.cs"
+				codeline="100"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

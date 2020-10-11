@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.6m"
+		durationms="156125"
+		type="root"
+		rid="4dae4ecc9e54570"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="05-10-2020 13:10:48"
+		timestampiso="2020-10-05T07:40:48"
+		endtime="05-10-2020 13:13:24"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Pool_Add">
+		<detail>
+			Pool_Add
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.832"
+			timeRelativeToTestModuleStartTime="00:05.832"
+			timeWallClock="13:10:54"
+			time="00:05.832"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>DeviceNamevar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.867"
+			timeRelativeToTestModuleStartTime="00:05.867"
+			timeWallClock="13:10:54"
+			time="00:05.867"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Pool_Add.Outdoor' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Outdoor']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Outdoor']"
+				fullname="MyTest2Repository.Pool_Add.Outdoor"
+				id="98a24e02a7b446b394918704dc858eba"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="92"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.320"
+			timeRelativeToTestModuleStartTime="00:31.320"
+			timeWallClock="13:11:19"
+			time="00:31.320"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to 'OutdoorPool_Automation' on item 'Pool_Add.PoolName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Pool Name']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Pool Name']"
+				fullname="MyTest2Repository.Pool_Add.PoolName"
+				id="a89e13ef15e24284bfc40dc7c87fe8fd"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="96"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.843"
+			timeRelativeToTestModuleStartTime="00:34.843"
+			timeWallClock="13:11:23"
+			time="00:34.843"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '250' with swipe duration'500ms' and step count '0' on item 'Pool_Add.PoolName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Pool Name']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Pool Name']"
+				fullname="MyTest2Repository.Pool_Add.PoolName"
+				id="a89e13ef15e24284bfc40dc7c87fe8fd"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="100"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:02.227"
+			timeRelativeToTestModuleStartTime="01:02.227"
+			timeWallClock="13:11:50"
+			time="01:02.227"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '6000' on item 'Pool_Add.Volume'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Volume']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Volume']"
+				fullname="MyTest2Repository.Pool_Add.Volume"
+				id="e150f5afba4644ea917472beca645578"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="108"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.799"
+			timeRelativeToTestModuleStartTime="01:05.799"
+			timeWallClock="13:11:54"
+			time="01:05.799"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '250' with swipe duration'500ms' and step count '0' on item 'Pool_Add.Volume'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Volume']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel='Volume']"
+				fullname="MyTest2Repository.Pool_Add.Volume"
+				id="e150f5afba4644ea917472beca645578"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="112"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:33.075"
+			timeRelativeToTestModuleStartTime="01:33.075"
+			timeWallClock="13:12:21"
+			time="01:33.075"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:35.084"
+			timeRelativeToTestModuleStartTime="01:35.084"
+			timeWallClock="13:12:23"
+			time="01:35.084"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Pool_Add.SelectAddress' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Select Address']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Select Address']"
+				fullname="MyTest2Repository.Pool_Add.SelectAddress"
+				id="62bb817c91104340a42c451365d2ea44"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="123"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:59.887"
+			timeRelativeToTestModuleStartTime="01:59.887"
+			timeWallClock="13:12:48"
+			time="01:59.887"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Pool_Add.Container53diamondcourtBurllingame' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='53 diamond court, Burllingame']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='53 diamond court, Burllingame']"
+				fullname="MyTest2Repository.Pool_Add.Container53diamondcourtBurllingame"
+				id="0655bf56c8c24b19b09e3cf13c2b136f"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="127"
+				itemindex="17"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:09.630"
+			timeRelativeToTestModuleStartTime="02:09.630"
+			timeWallClock="13:12:58"
+			time="02:09.630"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Pool_Add.PoolSave' at CenterRight
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']"
+				fullname="MyTest2Repository.Pool_Add.PoolSave"
+				id="229e7fe002f14512ace7066360774737"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="131"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:29.016"
+			timeRelativeToTestModuleStartTime="02:29.016"
+			timeWallClock="13:13:17"
+			time="02:29.016"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="19"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="135"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:32.020"
+			timeRelativeToTestModuleStartTime="02:32.020"
+			timeWallClock="13:13:20"
+			time="02:32.020"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Pool_Add.ADDANEWPOOL' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ADD A NEW POOL']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ADD A NEW POOL']"
+				fullname="MyTest2Repository.Pool_Add.ADDANEWPOOL"
+				id="1a5d965b6aec48b8abec4515fc85e30e"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Pool_Add.cs"
+				codeline="138"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:36.127"
+			timeRelativeToTestModuleStartTime="02:36.127"
+			timeWallClock="13:13:24"
+			time="02:36.127"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

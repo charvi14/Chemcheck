@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.7m"
+		durationms="162038"
+		type="root"
+		rid="7f18ca4e8625f2e"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="27-09-2020 14:07:47"
+		timestampiso="2020-09-27T08:37:47"
+		endtime="27-09-2020 14:10:29"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="2.4m"
+			durationms="143602"
+			type="test-suite"
+			rid="1075461f5001952e"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="MyTest2"
+			headertext="MyTest2"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="2.4m"
+				durationms="143570"
+				type="iteration-container"
+				rid="9ad852b93a47af9"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="Verify_InDoor_Pool_Water_Quality_with_balanced_values"
+				headertext="Verify_InDoor_Pool_Water_Quality_with_balanced_values"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="497a1375-a93f-4eeb-ac96-3dc5a2a08e51"
+				datasource="NewConnector4"
+				dataiterationcount="1">
+				<activity
+					result="Success"
+					duration="2.4m"
+					durationms="143558"
+					type="test-case"
+					rid="111f52c7bd895960"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="Verify_InDoor_Pool_Water_Quality_with_balanced_values"
+					testcontainerid="497a1375-a93f-4eeb-ac96-3dc5a2a08e51"
+					headertext="Verify_InDoor_Pool_Water_Quality_with_balanced_values"
+					displayName="Verify_InDoor_Pool_Water_Quality_with_balanced_values"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="pH">
+							7.5
+						</field>
+						<field
+							name="freeChlorine">
+							4
+						</field>
+						<field
+							name="totalchlorine">
+							15
+						</field>
+						<field
+							name="totalAlk">
+							100
+						</field>
+						<field
+							name=" CalciumHardness">
+							300
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="2.4m"
+						durationms="143512"
+						type="test-module"
+						rid="10e8e01c48d78822"
+						totalerrorcount="0"
+						totalwarningcount="1"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Indoor_Balanced_Verification"
+						displayName="Indoor_Balanced_Verification"
+						moduleid="7b641a0d-d952-4b2c-923c-11eeac2baeb2"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="pHBalanced"
+								value="7.5">
+							</varbinding>
+							<varbinding
+								name="ChlorineBalanced"
+								value="4">
+							</varbinding>
+							<varbinding
+								name="totalchbalanced"
+								value="15">
+							</varbinding>
+							<varbinding
+								name="TotalAlkabalanced"
+								value="100">
+							</varbinding>
+							<varbinding
+								name="calciumbalanced"
+								value="300">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.085"
+							timeRelativeToTestModuleStartTime="00:00.013"
+							timeWallClock="14:08:05"
+							time="00:00.085"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$pHBalanced = '7.5', $ChlorineBalanced = '4', $totalchbalanced = '15', $TotalAlkabalanced = '100', $calciumbalanced = '300'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.155"
+							timeRelativeToTestModuleStartTime="00:00.083"
+							timeWallClock="14:08:05"
+							time="00:00.155"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>Cyanuricbalaned
+							</message>
+							<metainfo
+								loglvl="Warn">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.202"
+							timeRelativeToTestModuleStartTime="00:00.130"
+							timeWallClock="14:08:05"
+							time="00:00.202"
+							level="Info"
+							category="Touch gestures">
+							<message>
+								Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '100' with swipe duration'800ms' and step count '0' on item 'ComPentairPentairhome.Sanitizer'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+								itempath=".//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+								fullname="MyTest2Repository.ComPentairPentairhome.Sanitizer"
+								id="38eaa5f44cac48fe8bb75781ecd2348f"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="160"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.162"
+							timeRelativeToTestModuleStartTime="00:19.090"
+							timeWallClock="14:08:24"
+							time="00:19.162"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.WaterQuality' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+								itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+								fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+								id="6fc992b5a39e41e1a5fa498ef745629c"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="164"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:33.917"
+							timeRelativeToTestModuleStartTime="00:33.845"
+							timeWallClock="14:08:39"
+							time="00:33.917"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'ComPentairPentairhome.TESTSTRIP' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='TEST STRIP']"
+								itempath=".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='TEST STRIP']"
+								fullname="MyTest2Repository.ComPentairPentairhome.TESTSTRIP"
+								id="8c239de6b12a461daf5b9dff939b82fe"
+								timeout="60000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="168"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:47.483"
+							timeRelativeToTestModuleStartTime="00:47.412"
+							timeWallClock="14:08:53"
+							time="00:47.483"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="3"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="172"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:49.561"
+							timeRelativeToTestModuleStartTime="00:49.489"
+							timeWallClock="14:08:55"
+							time="00:49.561"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$pHBalanced' on item 'Water_Quality.RCTUITextField'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//text"
+								fullname="MyTest2Repository.Water_Quality.RCTUITextField"
+								id="5af5448ffc384691a36dac2ec0e533bc"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="175"
+								itemindex="4"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:52.802"
+							timeRelativeToTestModuleStartTime="00:52.731"
+							timeWallClock="14:08:58"
+							time="00:52.802"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$ChlorineBalanced' on item 'Water_Quality.Chlorine'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[@accessibilitylabel='Free Chlorine  Ideal 1 to 5']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.Chlorine"
+								id="599a021aecb24c26b3d66c8a30604a4d"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="179"
+								itemindex="5"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:55.826"
+							timeRelativeToTestModuleStartTime="00:55.754"
+							timeWallClock="14:09:01"
+							time="00:55.826"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$totalchbalanced' on item 'Water_Quality.TotalChlorine'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Chlorine   ']/container[@accessibilitylabel='Total Chlorine   ']/container[@accessibilitylabel='Total Chlorine   ']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Chlorine   ']/container[@accessibilitylabel='Total Chlorine   ']/container[@accessibilitylabel='Total Chlorine   ']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.TotalChlorine"
+								id="e868bad5709442b89ba7867d385af45f"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="183"
+								itemindex="6"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:58.804"
+							timeRelativeToTestModuleStartTime="00:58.732"
+							timeWallClock="14:09:04"
+							time="00:58.804"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$TotalAlkabalanced' on item 'Water_Quality.TotalAlkalinity'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[@accessibilitylabel='Total Alkalinity  Ideal 80 to 120']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.TotalAlkalinity"
+								id="fa33e5476253492cbbf35903264126ff"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="187"
+								itemindex="7"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:01.834"
+							timeRelativeToTestModuleStartTime="01:01.762"
+							timeWallClock="14:09:07"
+							time="01:01.834"
+							level="Info"
+							category="Set value">
+							<message>
+								Setting attribute Text to '$calciumbalanced' on item 'Water_Quality.Calcium'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[2]/text"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[@accessibilitylabel='Calcium Hardness  Ideal 200 to 400']/container[2]/text"
+								fullname="MyTest2Repository.Water_Quality.Calcium"
+								id="c46d369bc7764d95a6d4198fd327ce17"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="191"
+								itemindex="8"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:04.793"
+							timeRelativeToTestModuleStartTime="01:04.722"
+							timeWallClock="14:09:10"
+							time="01:04.793"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.TotalAlkalinitylabel' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Alkalinity ']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Total Alkalinity ']"
+								fullname="MyTest2Repository.Water_Quality.TotalAlkalinitylabel"
+								id="3c327a0c03c5405d90f211a7e3951e43"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="195"
+								itemindex="9"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:22.664"
+							timeRelativeToTestModuleStartTime="01:22.592"
+							timeWallClock="14:09:28"
+							time="01:22.664"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.Save' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']"
+								fullname="MyTest2Repository.Water_Quality.Save"
+								id="7d3be135328d4364a3618de6371232e1"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="199"
+								itemindex="10"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:36.863"
+							timeRelativeToTestModuleStartTime="01:36.791"
+							timeWallClock="14:09:42"
+							time="01:36.863"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="11"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="203"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:38.976"
+							timeRelativeToTestModuleStartTime="01:38.904"
+							timeWallClock="14:09:44"
+							time="01:38.976"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.CONTINUE' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']"
+								fullname="MyTest2Repository.Water_Quality.CONTINUE"
+								id="1d004bd326ab4fd7a5bef53d6bf97859"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="206"
+								itemindex="12"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:54.905"
+							timeRelativeToTestModuleStartTime="01:54.833"
+							timeWallClock="14:10:00"
+							time="01:54.905"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 10s.
+							</message>
+							<metainfo
+								itemindex="13"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="210"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:05.016"
+							timeRelativeToTestModuleStartTime="02:04.944"
+							timeWallClock="14:10:10"
+							time="02:05.016"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (AccessibilityLabel='Balanced Water') on item 'Water_Quality.BalancedWater'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Balanced Water']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Balanced Water']"
+								fullname="MyTest2Repository.Water_Quality.BalancedWater"
+								id="868222cb8b874a929d7eab1562d230ed"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="213"
+								itemindex="14"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:06.788"
+							timeRelativeToTestModuleStartTime="02:06.716"
+							timeWallClock="14:10:12"
+							time="02:06.788"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.Water_Quality.BalancedWater' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Balanced Water']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Balanced Water']"
+								fullname="MyTest2Repository.Water_Quality.BalancedWater"
+								id="868222cb8b874a929d7eab1562d230ed"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="214"
+								loglvl="Success"
+								itemindex="14">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="02:06.939"
+							timeRelativeToTestModuleStartTime="02:06.867"
+							timeWallClock="14:10:12"
+							time="02:06.939"
+							level="Info"
+							category="Touch">
+							<message>
+								Touch item 'Water_Quality.Savebalanced' at Center
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Balanced Water Based on the results you''ve provided, it looks like your water is Balanced. You don’t need to make any adjustments. Save']/container[@accessibilitylabel='Save']/container[@accessibilityid='shadowButton']"
+								itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Balanced Water Based on the results you''ve provided, it looks like your water is Balanced. You don’t need to make any adjustments. Save']/container[@accessibilitylabel='Save']/container[@accessibilityid='shadowButton']"
+								fullname="MyTest2Repository.Water_Quality.Savebalanced"
+								id="a1b8e3b951da40378f0f59f052daefa8"
+								timeout="30000"
+								codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Balanced_Verification.cs"
+								codeline="217"
+								itemindex="15"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

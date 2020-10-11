@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.6m"
+		durationms="97751"
+		type="root"
+		rid="7f2246c25002800"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="15-09-2020 14:21:55"
+		timestampiso="2020-09-15T08:51:55"
+		endtime="15-09-2020 14:23:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Sanitizer">
+		<detail>
+			Sanitizer
+		</detail>
+		<errormessage>
+			Failed to find item 'MyTest2Repository.PH_Screen.HeaderLeftImage2'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.510"
+			timeRelativeToTestModuleStartTime="00:05.510"
+			timeWallClock="14:22:00"
+			time="00:05.510"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Sanitizer' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				itempath=".//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Sanitizer"
+				id="38eaa5f44cac48fe8bb75781ecd2348f"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.351"
+			timeRelativeToTestModuleStartTime="00:19.351"
+			timeWallClock="14:22:14"
+			time="00:19.351"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.090"
+			timeRelativeToTestModuleStartTime="00:23.090"
+			timeWallClock="14:22:18"
+			time="00:23.090"
+			level="Info"
+			category="User"
+			errimg="images_Sanitize_ef0a1405\Sanitize_b17ee651_rxlog.jpg"
+			errthumb="images_Sanitize_ef0a1405\Sanitize_b17ee651_rxlog_thumb.jpg">
+			<message>
+				Hourly Basis Sanitizer<br/>
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="89"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.092"
+			timeRelativeToTestModuleStartTime="00:23.092"
+			timeWallClock="14:22:18"
+			time="00:23.092"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Daily' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']"
+				itempath=".//container[@accessibilitylabel='Daily']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Daily"
+				id="53e44fad94fa4b5ca98c6461388a6421"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.999"
+			timeRelativeToTestModuleStartTime="00:33.999"
+			timeWallClock="14:22:29"
+			time="00:33.999"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.847"
+			timeRelativeToTestModuleStartTime="00:37.847"
+			timeWallClock="14:22:32"
+			time="00:37.847"
+			level="Info"
+			category="User"
+			errimg="images_Sanitize_ef0a1405\Sanitize_ed771b6_rxlog.jpg"
+			errthumb="images_Sanitize_ef0a1405\Sanitize_ed771b6_rxlog_thumb.jpg">
+			<message>
+				Daily Basis<br/>
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.848"
+			timeRelativeToTestModuleStartTime="00:37.848"
+			timeWallClock="14:22:32"
+			time="00:37.848"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Weekly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']"
+				itempath=".//container[@accessibilitylabel='Weekly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Weekly"
+				id="c0377e66dbe84f8aaecb161c5dfa7791"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="100"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:48.651"
+			timeRelativeToTestModuleStartTime="00:48.651"
+			timeWallClock="14:22:43"
+			time="00:48.651"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="104"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.417"
+			timeRelativeToTestModuleStartTime="00:52.417"
+			timeWallClock="14:22:47"
+			time="00:52.417"
+			level="Info"
+			category="User"
+			errimg="images_Sanitize_ef0a1405\Sanitize_f6cdcf87_rxlog.jpg"
+			errthumb="images_Sanitize_ef0a1405\Sanitize_f6cdcf87_rxlog_thumb.jpg">
+			<message>
+				Weekly Basis<br/>
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="107"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:52.419"
+			timeRelativeToTestModuleStartTime="00:52.419"
+			timeWallClock="14:22:47"
+			time="00:52.419"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.Monthly' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']"
+				itempath=".//container[@accessibilitylabel='Monthly']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Monthly"
+				id="0079c8cb41cd494ea5aafa5ecde64f0d"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="109"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.075"
+			timeRelativeToTestModuleStartTime="01:03.075"
+			timeWallClock="14:22:58"
+			time="01:03.075"
+			level="Info"
+			category="Delay"
+			errimg="images_Sanitize_ef0a1405\Sanitize_ef0a1405_093c9c3e_trace.jpg"
+			errthumb="images_Sanitize_ef0a1405\Sanitize_ef0a1405_093c9c3e_trace_thumb.jpg">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.908"
+			timeRelativeToTestModuleStartTime="01:06.908"
+			timeWallClock="14:23:02"
+			time="01:06.908"
+			level="Info"
+			category="User"
+			errimg="images_Sanitize_ef0a1405\Sanitize_54265aec_rxlog.jpg"
+			errthumb="images_Sanitize_ef0a1405\Sanitize_54265aec_rxlog_thumb.jpg">
+			<message>
+				Monthly Basis<br/>
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:06.909"
+			timeRelativeToTestModuleStartTime="01:06.909"
+			timeWallClock="14:23:02"
+			time="01:06.909"
+			level="Info"
+			category="Touch"
+			errimg="images_Sanitize_ef0a1405\Sanitize_ef0a1405_a26182cd_trace.jpg"
+			errthumb="images_Sanitize_ef0a1405\Sanitize_ef0a1405_a26182cd_trace_thumb.jpg">
+			<message>
+				Touch item 'PH_Screen.HeaderLeftImage2' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[1]/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@accessibilityid='headerLeftImage']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[1]/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@accessibilityid='headerLeftImage']"
+				fullname="MyTest2Repository.PH_Screen.HeaderLeftImage2"
+				id="042a425f43db44579c3ad9f96ba60715"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="118"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:37.446"
+			timeRelativeToTestModuleStartTime="01:37.446"
+			timeWallClock="14:23:32"
+			time="01:37.446"
+			level="Error"
+			category="Module"
+			errimg="images_Sanitize_ef0a1405\Sanitize_ef0a1405_49f87550_trace.jpg"
+			errthumb="images_Sanitize_ef0a1405\Sanitize_ef0a1405_49f87550_trace_thumb.jpg">
+			<message>
+				Failed to find item 'MyTest2Repository.PH_Screen.HeaderLeftImage2'.<br/>No element found for path '/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[1]/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@accessibilityid='headerLeftImage']' at step 'descendant-or-self::container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']' after 83 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at MyTest2.MyTest2RepositoryFolders.PH_ScreenFolder.get_HeaderLeftImage2() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\MyTest2Repository.cs:line 1102&#13;&#10;   at MyTest2.Sanitizer.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs:line 119&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Sanitizer.cs"
+				codeline="119"
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[1]/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@accessibilityid='headerLeftImage']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']/container[1]/container[@caption='']/container[@caption='']/container[1]/container[@caption='']/container[@accessibilityid='headerLeftImage']"
+				fullname="MyTest2Repository.PH_Screen.HeaderLeftImage2"
+				id="042a425f43db44579c3ad9f96ba60715"
+				timeout="30000"
+				failedStep="descendant-or-self::container[@accessibilitylabel='pH Select a blue dot for the monthly average reading. History Hourly Daily Weekly Monthly']"
+				bestPathPrefix="/mobileapp[@title='com.pentair.pentairhome']"
+				loglvl="Error"
+				itemindex="12">
+			</metainfo>
+		</item>
+	</activity>
+</report>

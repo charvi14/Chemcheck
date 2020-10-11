@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1m"
+		durationms="62031"
+		type="root"
+		rid="13670a0854b3972e"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="30-09-2020 18:57:00"
+		timestampiso="2020-09-30T13:27:00"
+		endtime="30-09-2020 18:58:02"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Indoor_Unbalanced_Water_Quality">
+		<detail>
+			Indoor_Unbalanced_Water_Quality
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.194"
+			timeRelativeToTestModuleStartTime="00:05.194"
+			timeWallClock="18:57:05"
+			time="00:05.194"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>PHvalue, pHagain, Chlorine, TotalChlorine, TotalAlkalinity, Calcium
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.230"
+			timeRelativeToTestModuleStartTime="00:05.230"
+			timeWallClock="18:57:05"
+			time="00:05.230"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.WaterQuality' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+				id="6fc992b5a39e41e1a5fa498ef745629c"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="160"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.798"
+			timeRelativeToTestModuleStartTime="00:19.798"
+			timeWallClock="18:57:19"
+			time="00:19.798"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Water_Quality.View_Test_history' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='VIEW TEST HISTORY']/container[@accessibilitylabel='VIEW TEST HISTORY']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='VIEW TEST HISTORY']/container[@accessibilitylabel='VIEW TEST HISTORY']"
+				fullname="MyTest2Repository.Water_Quality.View_Test_history"
+				id="b375b07ba6b4453baae35cb81da27322"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="164"
+				itemindex="28"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.026"
+			timeRelativeToTestModuleStartTime="00:30.026"
+			timeWallClock="18:57:30"
+			time="00:30.026"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="29"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="168"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.035"
+			timeRelativeToTestModuleStartTime="00:35.035"
+			timeWallClock="18:57:35"
+			time="00:35.035"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Water_Quality.Chemical_level_graph' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Chemical Level Graph']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Chemical Level Graph']"
+				fullname="MyTest2Repository.Water_Quality.Chemical_level_graph"
+				id="a8e23fc9961942e9a52dcb7e070469cd"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="171"
+				itemindex="30"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:46.820"
+			timeRelativeToTestModuleStartTime="00:46.820"
+			timeWallClock="18:57:46"
+			time="00:46.820"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Water_Quality.Hourly_water_history' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Hourly']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Hourly']"
+				fullname="MyTest2Repository.Water_Quality.Hourly_water_history"
+				id="a2c101077fc74bdba6b91bcb1f55fcf4"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Indoor_Unbalanced_Water_Quality.cs"
+				codeline="175"
+				itemindex="31"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:02.032"
+			timeRelativeToTestModuleStartTime="01:02.032"
+			timeWallClock="18:58:02"
+			time="01:02.032"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

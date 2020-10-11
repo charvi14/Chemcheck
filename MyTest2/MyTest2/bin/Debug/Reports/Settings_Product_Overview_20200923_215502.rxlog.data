@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="2.1m"
+		durationms="124271"
+		type="root"
+		rid="4486f62ec03756a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="23-09-2020 21:55:03"
+		timestampiso="2020-09-23T16:25:03"
+		endtime="23-09-2020 21:57:08"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Settings_Product_Overview">
+		<detail>
+			Settings_Product_Overview
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.317"
+			timeRelativeToTestModuleStartTime="00:06.317"
+			timeWallClock="21:55:10"
+			time="00:06.317"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HeaderRightImage' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']"
+				itempath=".//container[@accessibilityid='headerRightImage']"
+				fullname="MyTest2Repository.ComPentairPentairhome.HeaderRightImage"
+				id="022e44ff4fcf496f9209704896a30f4e"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.405"
+			timeRelativeToTestModuleStartTime="00:20.405"
+			timeWallClock="21:55:24"
+			time="00:20.405"
+			level="Info"
+			category="User"
+			errimg="images_Settings_d6addf59\Settings_bae0216a_rxlog.jpg"
+			errthumb="images_Settings_d6addf59\Settings_bae0216a_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.406"
+			timeRelativeToTestModuleStartTime="00:20.406"
+			timeWallClock="21:55:24"
+			time="00:20.406"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (AccessibilityLabel='Product Overview') on item 'Product_Overview.ProductOverviewclick'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']//container[@accessibilitylabel='Product Overview']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']//container[@accessibilitylabel='Product Overview']"
+				fullname="MyTest2Repository.Product_Overview.ProductOverviewclick"
+				id="219b024088ae4de8854efb3661ba9ad1"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.618"
+			timeRelativeToTestModuleStartTime="00:20.618"
+			timeWallClock="21:55:24"
+			time="00:20.618"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.Product_Overview.ProductOverviewclick' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']//container[@accessibilitylabel='Product Overview']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']//container[@accessibilitylabel='Product Overview']"
+				fullname="MyTest2Repository.Product_Overview.ProductOverviewclick"
+				id="219b024088ae4de8854efb3661ba9ad1"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="89"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.618"
+			timeRelativeToTestModuleStartTime="00:20.618"
+			timeWallClock="21:55:24"
+			time="00:20.618"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Product_Overview.ProductOverviewclick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']//container[@accessibilitylabel='Product Overview']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']//container[@accessibilitylabel='Product Overview']"
+				fullname="MyTest2Repository.Product_Overview.ProductOverviewclick"
+				id="219b024088ae4de8854efb3661ba9ad1"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="92"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.593"
+			timeRelativeToTestModuleStartTime="00:32.593"
+			timeWallClock="21:55:36"
+			time="00:32.593"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="96"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.387"
+			timeRelativeToTestModuleStartTime="00:36.387"
+			timeWallClock="21:55:40"
+			time="00:36.387"
+			level="Info"
+			category="User"
+			errimg="images_Settings_d6addf59\Settings_5d879605_rxlog.jpg"
+			errthumb="images_Settings_d6addf59\Settings_5d879605_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="99"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.387"
+			timeRelativeToTestModuleStartTime="00:36.387"
+			timeWallClock="21:55:40"
+			time="00:36.387"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '250' with swipe duration'800ms' and step count '0' on item 'Product_Overview.Nickname'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']"
+				fullname="MyTest2Repository.Product_Overview.Nickname"
+				id="fd6df0ae9f1c4de3bf2066697df0c791"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="101"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.488"
+			timeRelativeToTestModuleStartTime="00:55.488"
+			timeWallClock="21:55:59"
+			time="00:55.488"
+			level="Info"
+			category="User"
+			errimg="images_Settings_d6addf59\Settings_75913834_rxlog.jpg"
+			errthumb="images_Settings_d6addf59\Settings_75913834_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="105"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.488"
+			timeRelativeToTestModuleStartTime="00:55.488"
+			timeWallClock="21:55:59"
+			time="00:55.488"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Product_Overview.BackArrow' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']/container[@accessibilitylabel='Product Overview']/container[1]/container[@caption='']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']/container[@accessibilitylabel='Product Overview']/container[1]/container[@caption='']"
+				fullname="MyTest2Repository.Product_Overview.BackArrow"
+				id="ac42d90a69114e7c9824d75d1111a5b3"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="107"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.137"
+			timeRelativeToTestModuleStartTime="01:08.137"
+			timeWallClock="21:56:12"
+			time="01:08.137"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Product_Overview.Notifications' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Notifications']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Notifications']"
+				fullname="MyTest2Repository.Product_Overview.Notifications"
+				id="7ca8ec7738184042bbccd8e3173a37ab"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="111"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.538"
+			timeRelativeToTestModuleStartTime="01:20.538"
+			timeWallClock="21:56:24"
+			time="01:20.538"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="115"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.214"
+			timeRelativeToTestModuleStartTime="01:25.214"
+			timeWallClock="21:56:29"
+			time="01:25.214"
+			level="Info"
+			category="User"
+			errimg="images_Settings_d6addf59\Settings_1838accf_rxlog.jpg"
+			errthumb="images_Settings_d6addf59\Settings_1838accf_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="118"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.215"
+			timeRelativeToTestModuleStartTime="01:25.215"
+			timeWallClock="21:56:29"
+			time="01:25.215"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '1.0' with swipe duration'500ms' and step count '0' on item 'Product_Overview.RCTView2'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='toggle']/container[@caption='']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='toggle']/container[@caption='']"
+				fullname="MyTest2Repository.Product_Overview.RCTView2"
+				id="018cd224f94643bb9abf79e4da76075b"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="120"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:46.333"
+			timeRelativeToTestModuleStartTime="01:46.333"
+			timeWallClock="21:56:50"
+			time="01:46.333"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:50.002"
+			timeRelativeToTestModuleStartTime="01:50.002"
+			timeWallClock="21:56:53"
+			time="01:50.002"
+			level="Info"
+			category="User"
+			errimg="images_Settings_d6addf59\Settings_457df3d6_rxlog.jpg"
+			errthumb="images_Settings_d6addf59\Settings_457df3d6_rxlog_thumb.jpg">
+			<message>
+				
+			</message>
+			<metainfo
+				itemindex="14"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="127"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:50.003"
+			timeRelativeToTestModuleStartTime="01:50.003"
+			timeWallClock="21:56:53"
+			time="01:50.003"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Product_Overview.Notification_back_arrow' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/iconBack@2x.png']"
+				itempath="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='assets/src/Common_Feature/Images/iconBack@2x.png']"
+				fullname="MyTest2Repository.Product_Overview.Notification_back_arrow"
+				id="4854086f9dae4e268e41f6ee1c0767e5"
+				timeout="30000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\Settings_Product_Overview.cs"
+				codeline="129"
+				itemindex="15"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

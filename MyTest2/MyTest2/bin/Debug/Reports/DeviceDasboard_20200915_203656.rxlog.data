@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="8.69s"
+		durationms="8687"
+		type="root"
+		rid="295c31b67813ca57"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="dell"
+		rxversion="9.3.2.0"
+		host="DESKTOP-6CP042A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="15-09-2020 20:36:58"
+		timestampiso="2020-09-15T15:06:58"
+		endtime="15-09-2020 20:37:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="DeviceDasboard">
+		<detail>
+			DeviceDasboard
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.000"
+			timeRelativeToTestModuleStartTime="00:05.000"
+			timeWallClock="20:37:03"
+			time="00:05.000"
+			level="Info"
+			category="Validation">
+			<message>
+				Problem Detected Section verification<br/>Validating AttributeEqual (AccessibilityLabel='alertDetected') on item 'ComPentairPentairhome.AlertDetected'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='alertDetected']"
+				itempath=".//container[@accessibilityid='alertDetected']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AlertDetected"
+				id="92d5f35b49ea44209cbc39e5cec52189"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.611"
+			timeRelativeToTestModuleStartTime="00:07.611"
+			timeWallClock="20:37:06"
+			time="00:07.611"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.ComPentairPentairhome.AlertDetected' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='alertDetected']"
+				itempath=".//container[@accessibilityid='alertDetected']"
+				fullname="MyTest2Repository.ComPentairPentairhome.AlertDetected"
+				id="92d5f35b49ea44209cbc39e5cec52189"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="84"
+				loglvl="Success"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.612"
+			timeRelativeToTestModuleStartTime="00:07.612"
+			timeWallClock="20:37:06"
+			time="00:07.612"
+			level="Info"
+			category="Validation">
+			<message>
+				(Optional Action)<br/>Reminder section validation Successful<br/>Validating AttributeEqual (AccessibilityLabel='Reminder') on item 'ComPentairPentairhome.Reminder'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Reminder']/container[@accessibilitylabel='Reminder']/container[@accessibilitylabel='Reminder']"
+				itempath=".//container[@accessibilitylabel='Reminder']/container[@accessibilitylabel='Reminder']/container[@accessibilitylabel='Reminder']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Reminder"
+				id="71ca337f13ea444d81db9911cc994282"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="89"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.776"
+			timeRelativeToTestModuleStartTime="00:07.776"
+			timeWallClock="20:37:06"
+			time="00:07.776"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.ComPentairPentairhome.Reminder' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Reminder']/container[@accessibilitylabel='Reminder']/container[@accessibilitylabel='Reminder']"
+				itempath=".//container[@accessibilitylabel='Reminder']/container[@accessibilitylabel='Reminder']/container[@accessibilitylabel='Reminder']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Reminder"
+				id="71ca337f13ea444d81db9911cc994282"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="90"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.777"
+			timeRelativeToTestModuleStartTime="00:07.777"
+			timeWallClock="20:37:06"
+			time="00:07.777"
+			level="Info"
+			category="Validation">
+			<message>
+				Water Temperature Section validation successful<br/>Validating AttributeEqual (AccessibilityLabel='Water Temperature') on item 'ComPentairPentairhome.WaterTemperature'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Temperature']/container[@accessibilitylabel='Water Temperature']"
+				itempath=".//container[@accessibilitylabel='Water Temperature']/container[@accessibilitylabel='Water Temperature']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterTemperature"
+				id="1fed839008e14725b065ab9c035cdee3"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="95"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.939"
+			timeRelativeToTestModuleStartTime="00:07.939"
+			timeWallClock="20:37:06"
+			time="00:07.939"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.ComPentairPentairhome.WaterTemperature' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Temperature']/container[@accessibilitylabel='Water Temperature']"
+				itempath=".//container[@accessibilitylabel='Water Temperature']/container[@accessibilitylabel='Water Temperature']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterTemperature"
+				id="1fed839008e14725b065ab9c035cdee3"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="96"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.939"
+			timeRelativeToTestModuleStartTime="00:07.939"
+			timeWallClock="20:37:06"
+			time="00:07.939"
+			level="Info"
+			category="Validation">
+			<message>
+				PH section validation successful<br/>Validating AttributeEqual (AccessibilityLabel='pH') on item 'ComPentairPentairhome.ContainerPH'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH']/container[@accessibilitylabel='pH']"
+				itempath=".//container[@accessibilitylabel='pH']/container[@accessibilitylabel='pH']"
+				fullname="MyTest2Repository.ComPentairPentairhome.ContainerPH"
+				id="e0e211d177da46f59839b81f395159b1"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="100"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.101"
+			timeRelativeToTestModuleStartTime="00:08.101"
+			timeWallClock="20:37:06"
+			time="00:08.101"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.ComPentairPentairhome.ContainerPH' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='pH']/container[@accessibilitylabel='pH']"
+				itempath=".//container[@accessibilitylabel='pH']/container[@accessibilitylabel='pH']"
+				fullname="MyTest2Repository.ComPentairPentairhome.ContainerPH"
+				id="e0e211d177da46f59839b81f395159b1"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="101"
+				loglvl="Success"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.101"
+			timeRelativeToTestModuleStartTime="00:08.101"
+			timeWallClock="20:37:06"
+			time="00:08.101"
+			level="Info"
+			category="Validation">
+			<message>
+				Sanitizer section validation successful<br/>Validating AttributeEqual (AccessibilityLabel='Sanitizer') on item 'ComPentairPentairhome.Sanitizer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				itempath=".//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Sanitizer"
+				id="38eaa5f44cac48fe8bb75781ecd2348f"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="105"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.265"
+			timeRelativeToTestModuleStartTime="00:08.265"
+			timeWallClock="20:37:06"
+			time="00:08.265"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.ComPentairPentairhome.Sanitizer' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				itempath=".//container[@accessibilitylabel='Sanitizer']/container[@accessibilitylabel='Sanitizer']"
+				fullname="MyTest2Repository.ComPentairPentairhome.Sanitizer"
+				id="38eaa5f44cac48fe8bb75781ecd2348f"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="106"
+				loglvl="Success"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.265"
+			timeRelativeToTestModuleStartTime="00:08.265"
+			timeWallClock="20:37:06"
+			time="00:08.265"
+			level="Info"
+			category="Validation">
+			<message>
+				Water quality section validation successful<br/>Validating AttributeEqual (AccessibilityLabel='Water Quality') on item 'ComPentairPentairhome.WaterQuality'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+				id="6fc992b5a39e41e1a5fa498ef745629c"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="110"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.417"
+			timeRelativeToTestModuleStartTime="00:08.417"
+			timeWallClock="20:37:07"
+			time="00:08.417"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.ComPentairPentairhome.WaterQuality' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				itempath=".//container[@accessibilitylabel='Water Quality']/container[@accessibilitylabel='Water Quality']"
+				fullname="MyTest2Repository.ComPentairPentairhome.WaterQuality"
+				id="6fc992b5a39e41e1a5fa498ef745629c"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="111"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.417"
+			timeRelativeToTestModuleStartTime="00:08.417"
+			timeWallClock="20:37:07"
+			time="00:08.417"
+			level="Info"
+			category="Validation">
+			<message>
+				Settng icon<br/>Validating AttributeEqual (Visible='True') on item 'ComPentairPentairhome.HeaderRightImage'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']"
+				itempath=".//container[@accessibilityid='headerRightImage']"
+				fullname="MyTest2Repository.ComPentairPentairhome.HeaderRightImage"
+				id="022e44ff4fcf496f9209704896a30f4e"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="115"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.551"
+			timeRelativeToTestModuleStartTime="00:08.551"
+			timeWallClock="20:37:07"
+			time="00:08.551"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Visible' of element for item 'MyTest2Repository.ComPentairPentairhome.HeaderRightImage' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']"
+				itempath=".//container[@accessibilityid='headerRightImage']"
+				fullname="MyTest2Repository.ComPentairPentairhome.HeaderRightImage"
+				id="022e44ff4fcf496f9209704896a30f4e"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="116"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.552"
+			timeRelativeToTestModuleStartTime="00:08.552"
+			timeWallClock="20:37:07"
+			time="00:08.552"
+			level="Info"
+			category="Validation">
+			<message>
+				Header Title verification<br/>Validating AttributeEqual (AccessibilityLabel='chemcheck150A1') on item 'ComPentairPentairhome.HeaderTitle'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerTitle' and @accessibilitylabel='chemcheck150A1']"
+				itempath=".//container[@accessibilityid='headerTitle' and @accessibilitylabel='chemcheck150A1']"
+				fullname="MyTest2Repository.ComPentairPentairhome.HeaderTitle"
+				id="d169d677279842b4a6c54c540a730112"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="120"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.687"
+			timeRelativeToTestModuleStartTime="00:08.687"
+			timeWallClock="20:37:07"
+			time="00:08.687"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'AccessibilityLabel' of element for item 'MyTest2Repository.ComPentairPentairhome.HeaderTitle' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerTitle' and @accessibilitylabel='chemcheck150A1']"
+				itempath=".//container[@accessibilityid='headerTitle' and @accessibilitylabel='chemcheck150A1']"
+				fullname="MyTest2Repository.ComPentairPentairhome.HeaderTitle"
+				id="d169d677279842b4a6c54c540a730112"
+				timeout="60000"
+				codefile="c:\Users\dell\Documents\Ranorex\RanorexStudio Projects\MyTest2\MyTest2\DeviceDasboard.cs"
+				codeline="121"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>
